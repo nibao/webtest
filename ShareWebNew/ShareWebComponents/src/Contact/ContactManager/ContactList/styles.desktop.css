@@ -1,0 +1,32 @@
+@import '../../../../libs/root.css';
+.container{
+    height: 100%;
+
+    & .loading-box {
+        display: inline-block;
+        padding: 20px 30px;
+
+        & .loading-message {
+            height: 30px;
+            font-size: var(--font-size-subtitle);
+            line-height: 30px;
+            margin-top: 15px;
+            color: var(--font-color-secondary);
+        }
+    } 
+
+    & .text-lineheight {
+        line-height: 1.2;
+    }
+
+    & .loading {
+        position: absolute;
+        height: 100%;
+    }
+
+
+}
+
+
+
+

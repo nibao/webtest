@@ -1,0 +1,33 @@
+:local .container{
+    & .form-table{
+        margin-left: 2em;
+    }
+    & .form-label{
+        text-align: right;
+        padding: 5px;
+        vertical-align: middle;
+    }
+    & .form-field{
+        padding: 5px;
+        vertical-align: middle;
+    }
+    & .content-box{
+        width: 100%;
+    }
+    & .url-box{
+        width: 300px;
+    }
+    & .test-attachable{
+        color: #0c0;
+    }
+    & .test-unattachable{
+        color: #f00;
+    }
+    & .footer {
+        margin: 10px;
+        height: 30px;
+        & .button-wrapper {
+            margin-left: 10px;
+        }
+    }
+}

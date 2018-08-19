@@ -1,0 +1,16 @@
+.container {
+    width: 340px;
+    max-height: 140px;
+    overflow-y: auto;
+}
+
+.node-area {
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: solid 1px #e0e0e0;
+}
+
+.error-area {
+    line-height: 26px;
+}

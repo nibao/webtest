@@ -1,0 +1,145 @@
+.layout {
+    height: 420px;
+    & .atom {
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        vertical-align: top;
+    }
+
+    & .atom-left {
+        & .padding {
+            height: 100%;
+            padding-right: 10px;
+
+            & .atom-title{
+                position: relative;
+                width: 540px;
+                height: 16px;
+                margin-bottom: 30px;
+            }
+        } 
+    }
+
+    & .atom-right {
+        & .padding {
+            height: 100%;
+            padding-left: 10px;
+
+            & .atom-title {
+                position: relative;
+                height: 16px;
+                padding: 20px 0 0 0 ;
+                color: #868686;
+                
+                & .atom-title-action {
+                    position: absolute;
+                    right: 0;
+                }
+            }
+
+            & .atom-content {
+                height: 370px;
+                border: 1px solid #f2f2f2;
+                overflow-y: auto;
+                margin-top: 10px;
+
+                & .list-head{
+                    position: relative;
+                    background: #f5f9ff;
+                    line-height: 30px;
+                    border-top: 1px solid transparent;
+                    border-bottom: 1px solid #f4f4f4;
+                    cursor: default;
+
+                    & .list-head-item{
+
+                        & .list-head-name{
+                            display: inline-block;
+                            text-align: left;
+                            padding-left: 15px;
+                            vertical-align: middle;
+                        }
+
+                        & .list-head-operation{
+                            display: inline-block;
+                            padding:0 10px;
+                            float: right;
+                            margin-right: 20px;
+                        }
+                    }
+                }
+
+                & .list-body{
+                    position: relative;
+                    line-height: 30px;
+                    cursor: default;
+
+                    & .list-body-name{
+                        display: inline-block;
+                        width: 170px;
+                        text-align: left;
+                        padding-left: 15px;
+                        vertical-align: middle;
+                    }
+
+                    & .list-body-operation{
+                        display: inline-block;
+                        vertical-align: top;
+
+                        & .clear-flag {
+                            width: 50px;
+                            text-align: center;
+                            vertical-align: middle;
+                            color: #888;
+
+                           &:hover{
+                                cursor: pointer;
+                                color: #868686;
+                            }
+
+                            &:active{
+                                color: #262626;
+                            }
+                        }
+
+                    }
+    
+                }
+                
+                & .name {
+                    width: 170px;
+                    height: 20px;
+                    text-align: left;
+                    line-height: 16px;
+                }
+
+                & .clear-flag {
+                    width: 50px;
+                    text-align: center;
+                    vertical-align: middle;
+                    color: #888;
+
+                    & :hover {
+                        color: #585858;
+                    }
+                }
+            }
+        } 
+    }
+
+    & .border-style {
+        height: 350px;
+        padding:10px;
+        border: 1px solid #f2f2f2;
+        
+
+    }
+}
+
+
+.department-tree {
+    height: 320px;
+    white-space: nowrap;
+    overflow: auto;
+}

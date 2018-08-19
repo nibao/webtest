@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <!-- 导入 anyshare.desktop.css -->
+    <link rel="stylesheet" href="/static/anyshare.desktop.css">
+
+    <!-- 导入 anyshare.desktop.js -->
+    <script src="/static/anyshare.desktop.js"></script>
+</head>
+
+<body>
+    <script>
+        var yunPan = AnyShare({
+            // Web组件语言
+            locale: 'zh-cn',
+
+            // 如何获取鉴权信息 userid
+            userid: function () {
+                return sessionStorage.getItem('userid')
+            },
+
+            // 如何获取鉴权信息 tokenid
+            tokenid: function () {
+                return sessionStorage.getItem('tokenid')
+            },
+        })
+    </script>
+</body>
+
+</html>

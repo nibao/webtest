@@ -1,0 +1,64 @@
+.license {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 75px;
+    bottom: 0;
+    color: #505050;
+    .data-grid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 35px;
+        line-height: normal;
+        .drop-box {
+            position: absolute;
+            display: inline-block;
+        }
+        .toolbar-button {
+            margin-right: 10px;
+        }
+        .extra {
+            font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+            font-size: 13px;
+            color: #505050;
+            margin-left: 30px;
+            .item {
+                padding: 5px 0px;
+                .endTime {
+                    margin-left: 20px;
+                }
+            }
+        }
+        .model-wrap {
+            position: relative;
+            padding-left: 25px;
+            .icon-wrap {
+                position: absolute;
+                position: absolute;
+                left: 0;
+                top: -4px;
+            }
+        }
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        font-family: "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", "Microsoft YaHei", sans-serif;
+        font-size: 13px;
+        color: #505050;
+        display: table;
+        width: 100%;
+        border: 1px solid #f6f7fc;
+        padding: 10px 0px;
+        background-color: #f6f7fc;
+        .footer-item {
+            display: table-cell;
+            width: 20%;
+            .red {
+                color: red;
+            }
+        }
+    }
+}

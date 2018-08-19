@@ -1,0 +1,22 @@
+.tree{
+    display: none;
+    &.expand{
+        display: block;
+    }
+    & .node {
+        padding: 2px 0;
+        white-space: nowrap;
+        
+        & .switch{
+            display: inline;
+            white-space: pre;
+            & .switch-icon{
+                display: inline-block;
+                width: 10px;
+                text-align: center;
+                margin: 0 10px;
+            }
+    }
+    }
+    
+}

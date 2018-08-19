@@ -1,0 +1,6 @@
+.ondup-option{
+    border-top: 1px solid #d0d0d0;
+    &:first-child{
+        border-top: none;
+    }
+}

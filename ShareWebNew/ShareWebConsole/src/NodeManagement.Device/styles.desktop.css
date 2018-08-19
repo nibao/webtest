@@ -1,0 +1,20 @@
+ @import '../../libs/root.css';
+
+.wrapper{
+    margin-top: var(--layout-spacing-medium);
+
+    & .label-style{
+        background-color: var(--control-background-color);
+        border-bottom: 1px solid #efefef;
+        margin: 0 var(--layout-spacing-small) 0 var(--layout-spacing-large);
+        font-size: var(--font-size-subtitle);
+        color: var(--font-color-regular);
+
+        &:active{
+            background: var(--control-background-color);
+        }
+        &:hover{
+            background: var(--control-background-color);
+        }
+    }
+}

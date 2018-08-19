@@ -1,0 +1,35 @@
+@import '../../../libs/root.css';
+
+.top-area {
+    position: relative;
+
+    & .clear-btn {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        color: var(--font-color-regular);
+    }
+}
+
+.label {
+    margin-left: 16px;
+}
+
+.error-text {
+    color: #d70000;
+}
+
+.form-area {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+}
+
+.text {
+    line-height: 24px;
+}
+
+.text-color {
+    color: var(--font-color-strong);
+}

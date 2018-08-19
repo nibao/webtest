@@ -1,0 +1,16 @@
+@import '../../../../libs/root.css';
+.agree {
+        color: var(--anyshare-green01);
+}
+
+.deny {
+        color: var(--anyshare-red-01);
+}
+
+.audit-comment {
+        word-break: break-all;
+        width: 260px;
+        max-height: 100px;
+        overflow: auto;
+        margin-top: 10px;
+}

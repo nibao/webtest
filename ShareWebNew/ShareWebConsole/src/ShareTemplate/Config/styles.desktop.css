@@ -1,0 +1,25 @@
+:local .container {
+    & .sharers-content {
+        display: inline-block;
+    }
+    & .sharers-text {
+        display: inline-block;
+        width: 240px;
+        margin: 0 5px 0 0;
+        vertical-align: middle;
+    }
+    & .msg_text {
+        color: red;
+        margin: 5px 0 10px 5px;
+    }
+    & .input-space {
+        margin-left: 5px;
+    }
+    & .day {
+        margin-left: 5px;
+    }
+    & .form-data {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}

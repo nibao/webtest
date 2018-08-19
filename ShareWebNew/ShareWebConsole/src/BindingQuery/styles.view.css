@@ -1,0 +1,35 @@
+:local .container{
+    & .fl{
+        float: left;
+    }
+    & .fr{
+        float: right;
+    }
+    & .info-header{
+        margin:20px 0 10px
+    }
+    & .tip{
+        margin-left: 10px;
+        color: #999;
+    }    
+    & .net-container,
+    & .device-container{
+        width: 50%;
+    }
+    & .net-wrapper{
+        margin-right: 10px;
+    }
+    & .device-wrapper{
+        margin-left: 10px;
+    }
+    & .info-header{
+        margin: 20px 0 10px;
+    }
+    & .data-grid{
+        border: 1px solid #e5e5e5;
+    }
+    & .search-item{
+        display: block;
+        text-decoration: none;
+    }
+}

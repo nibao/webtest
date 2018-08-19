@@ -1,0 +1,237 @@
+/**
+ * AnyShare 基本颜色／间距定义
+ * 参考规范：
+ * 1. AnyShare://AnyShare产品线/4-AnyShare 研发部/产品设计资料/6.0 UI 资源/UI色阶表.png
+ * 2. AnyShare://AnyShare产品线/4-AnyShare 研发部/产品设计资料/6.0 UI 资源/Web客户端/文档列表/标注-列表.png
+ *
+ * 使用:
+ * @import '../libs/root.css';
+ *
+ * .button {
+ *     background-color: var(--background-light);
+ * }
+ */
+
+:root {
+    --anyshare-red-01: #e60012;
+    --anyshare-red-02: #ffebee;
+    --anyshare-red-03: #ffcdd2;
+    --anyshare-red-04: #ef9a9a;
+    --anyshare-red-05: #cc3333;
+    --anyshare-red-06: #b71c1c;
+    --anyshare-red-07: #9f0707;
+
+    --anyshare-grey-01: #595959;
+    --anyshare-grey-02: #fafafa;
+    --anyshare-grey-03: #eeeeee;
+    --anyshare-grey-04: #e0e0e0;
+    --anyshare-grey-05: #bdbdbd;
+    --anyshare-grey-06: #9e9e9e;
+    --anyshare-grey-07: #757575;
+    --anyshare-grey-08: #424242;
+
+    --anyshare-bluegrey-01: #646c72;
+    --anyshare-bluegrey-02: #ecf0f1;
+    --anyshare-bluegrey-03: #d3d8d9;
+    --anyshare-bluegrey-04: #9aa1a7;
+    --anyshare-bluegrey-05: #4b5958;
+    --anyshare-bluegrey-06: #2a3238;
+
+    --anyshare-orange-01: #fdad61;
+    --anyshare-orange-02: #ffa726;
+    --anyshare-orange-03: #fb8c00;
+
+    --anyshare-green01: #2aa879;
+    --anyshare-green02: #e8f5e9;
+    --anyshare-green03: #c8e6c9;
+    --anyshare-green04: #81c784;
+
+    --anyshare-blue-01: #2196f3;
+    --anyshare-blue-02: #e3f2fd;
+    --anyshare-blue-03: #bbdefb;
+    --anyshare-blue-04: #598db8;
+
+    /**
+     * 基本间距
+     */
+    --layout-spacing-small: 10px;
+    --layout-spacing-medium: 20px;
+    --layout-spacing-large: 30px;
+
+
+    /**
+     * AnyShare主题色
+     */
+    --anyshare-main-red: #d70000;
+
+
+    /**
+     * 字体颜色
+     */
+
+    /* 列表字体 */
+    --font-color-list: #757575;
+
+    /* 一般黑色 */
+    --font-color-regular: #505050;
+
+    /* 重点黑色 */
+    --font-color-strong: #000000;
+
+    /* 次要灰色 */
+    --font-color-secondary: #868686;
+
+    /* 灰化 */
+    --font-color-disabled: #c8c8c8;
+
+    /* 深色背景中的白色字体 */
+    --font-color-light: #fff;
+
+    /* 超链接 */
+    --font-color-link: #5a8cb4;
+
+    /* 超链接（悬浮） */
+    --font-color-link__hover: #78b4d7;
+
+    /* 超链接（按下） */
+    --font-color-link__active: #376ea0;
+
+    /* 警告 */
+    --font-color-critical: #d70000;
+
+    /* 重点黑色悬停颜色 */
+    --font-color-string-hover: #3c8eff;
+
+    /* 重点黑色点击颜色 */
+    --font-color-string-active: #006bff;
+
+    /* 移动web蓝色字体颜色 */
+    --font-color-blue-mobile: #0075ed;
+
+    /**
+     * 按钮颜色
+     */
+    
+    /* 深灰背景色 */
+    --background-dark: #646b73;
+
+    /* 深灰背景色(悬浮) */
+    --background-dark__hover: #7d8791; 
+
+    /* 深灰背景色(激活) */
+    --background-dark__active: #4b5258; 
+
+    /* 深灰背景色(灰化) */
+    --background-dark__disabled: #d3d8db; 
+
+
+    /* 红色背景色 */
+    --background-red: #d70000;
+
+    /* 红色背景色(悬浮) */
+    --background-red__hover: #e82828; 
+
+    /* 红色背景色(激活) */
+    --background-red__active: #b71b1c; 
+
+    /* 红色背景色(灰化) */
+    --background-red__disabled: #ffb3b3; 
+
+
+    /* 白色背景色 */
+    --background-light: #ffffff;
+
+    /* 白色背景色(悬浮) */
+    --background-light__hover: #fafafa; 
+
+    /* 白色背景色(激活) */
+    --background-light__active: #eeeeee; 
+
+    /* 白色背景色(灰化) */
+    --background-light__disabled: #e0e0e0; 
+
+
+    /**
+     * 描边
+     */
+
+    /* 正常 */
+    --border-color: #d3d8db;
+
+    /* 悬停 */
+    --border-color__hover: #b4bec8;
+
+    /* 激活 */
+    --border-color__active: #b4bec8;
+
+    /* 灰化 */
+    --border-color__disabled: #e0e0e0;
+
+
+    /**
+     * 字体大小
+     */
+
+    /* 主标题 */
+    --font-size-maintitle: 16px;
+
+    /* 二级标题 */
+    --font-size-subtitle: 14px;
+
+    /* 正文 */
+    --font-size-regular: 13px;
+
+    /* 表单控件高度 */
+    --input-height: 30px;
+
+    /* 表单控件边框 */
+    --input-border: {
+        border: 1px solid #bdbdbd;
+        border-radius: 2px;
+    }
+
+    /* font-family */
+    --font-family: Arial, "Microsoft YaHei";
+    
+    /**
+     * 基本交互控件样式
+     */
+    --control-border-color: #d3d8db;
+    --control-border-color__hover: #b4bec8;
+    --control-border-color__focus: #b4bec8;
+    --control-border-color__disabled: #e0e0e0;
+
+    --control-border-radius: 2px;
+    
+    --control-block-shadow: 1px 1px 5px #b4bec8;
+    --control-shadow__hover: 0 0 3px #b4bec8;
+    --control-shadow__focus: 0 0 3px #788296;
+    --control-shadow__disabled: none;
+
+    --control-background-color: #fff;
+    --control-background-color__disabled: #fafafa;
+    
+
+    /**
+     * dialog的高度 
+     */
+    --dialog-header-height: 35px;
+
+    /* 表单禁用样式 */
+    --disabled: {
+        opacity: .5;
+        filter: alpha(opacity=50);
+        cursor: default;
+    }
+
+
+
+    /* 预览黑色背景色 */
+    --preview-background-dark: #262626;
+
+    /* 预览黑色背景的字体颜色 */
+    --preview-background-dark-font-color: #868686;
+
+    /* 进度条背景颜色 */
+    --progress-background-color: #b3c9ce;
+}

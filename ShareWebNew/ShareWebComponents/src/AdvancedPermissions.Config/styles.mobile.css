@@ -1,0 +1,125 @@
+@import '../../libs/root.css';
+
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    background: #fff;
+    z-index: 2;
+
+    & .header-left-area {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    & .header-text {
+        margin: 0 3rem;
+        text-align: center;
+    }
+
+    & .header-right-area {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    & .header-button {
+        display: inline-block;
+        width: 1.6rem;
+        height: 100%;
+        text-align: center;
+    }
+
+    & .header-enable-btn {
+        color: #d70000;
+    }
+
+    & .header-disabled-btn {
+        opacity: 0.5;
+        filter: alpha(opacity = 50);
+    }
+
+    & .content-area {
+        position: fixed;
+        top: 48px;
+        bottom: 0;
+        width: 100vw;
+        box-sizing: border-box;
+        background: #eee;
+        overflow-y: auto;
+
+        & .disable {
+            color: #c8c8c8;
+        }
+
+        & .line-area {
+            padding: 0 0 0 10px;
+            line-height: 50px;
+            border-top: solid 1px #eee;
+
+            & .perm-label {
+                display: inline-block;
+                position: absolute;
+                width: 70px;
+                margin-left: 5px;
+            }
+
+            & .perm-value {
+                display: inline-block;
+                width: 100%;
+                box-sizing: border-box;
+                padding-left: 70px;
+                padding-right: 20px;
+                text-align: right;
+
+                & .allow-value {
+                    display: inline-block;
+                }
+
+                & .deny-value {
+                    display: inline-block;
+                    margin-left: 20px;
+                    margin-right: 10px;
+                }
+            }
+
+            & .perm-value-time {
+                display: inline-block;
+                width: 100%;
+                box-sizing: border-box;
+                padding-left: 70px;
+                text-align: right;
+
+                & .time-area {
+                    display: inline-block;
+                    color: var(--font-color-blue-mobile);
+                }
+
+                & .radio-box {
+                    display: inline-block;
+                    width: 70px;
+                    text-align: center;
+                }
+            }
+        }
+
+        & .grey-back {
+            background: #f9f9f9;
+        } 
+    }
+}
+
+input[type="date"]
+{
+    display: inline-block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    color: var(--font-color-blue-mobile);
+    font-size: 16px;
+    background: none;
+    border: none;
+    text-align: right;
+    vertical-align: middle;
+}

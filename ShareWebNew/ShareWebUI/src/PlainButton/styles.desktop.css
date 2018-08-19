@@ -1,0 +1,51 @@
+@import '../../libs/root.css';
+
+.plainbutton {
+    height: var(--input-height);
+    line-height: var(--input-height);
+    padding: 0 10px;
+    background-color: var(--control-background-color);
+    border: 1px solid transparent;
+    box-shadow: none;
+    cursor: pointer;
+
+    & .icon {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    &:hover {
+        background-color: var(--anyshare-grey-02);
+        @apply --input-border;
+    }
+
+    &:active {
+        background-color: var(--anyshare-grey-03);
+    }
+
+    &:focus {
+        outline: none;
+    }
+    &:focus[disabled] {
+        border: 1px solid transparent;
+        background-color: var(--control-background-color);
+    }
+    &:hover[disabled] {
+        border: 1px solid transparent;
+        background-color: var(--control-background-color);
+    }
+
+    &:active[disabled] {
+        border: 1px solid transparent;
+        background-color: var(--control-background-color);
+    }
+
+}
+
+.box-sizing-border-box {
+    box-sizing: border-box;
+}
+
+.disabled {
+    @apply --disabled;
+}

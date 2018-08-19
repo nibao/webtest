@@ -1,0 +1,61 @@
+:local .container{
+    & .title{
+        position: relative;
+        height: 42px;
+        line-height: 42px;
+        padding-left: 20px;
+        background-color: #f1f1f1;
+        font-size: 16px;
+    }
+
+    & .edit-tag-btn{
+        position: absolute;
+        right: 20px;
+        top: 9px;
+        line-height: 15px;
+        height: 25px; 
+    }
+
+    & .content-padding{
+
+        min-height: 200px;
+        padding: 18px 0px 18px 18px;
+
+        & .meta-block {
+            display: block;
+            position: relative;
+        }
+    }
+    
+    & .textbox {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    & .selectFormat {
+        position: relative;
+        top: 10px;
+        z-index: 1;
+        padding: 0 0 10px 0;
+    }
+
+    & .edit-content {
+        max-height: 400px; 
+        overflow: auto;
+
+        & .name-container {
+            white-space: nowrap;
+        }
+
+        & .attr-name {
+            max-width: 80px;
+            display: inline-block;
+            vertical-align: bottom;
+        }
+
+        & .value {
+            position: relative;
+        }
+    }
+}
+

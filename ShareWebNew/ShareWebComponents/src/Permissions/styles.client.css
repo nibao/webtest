@@ -1,0 +1,16 @@
+.item {
+    line-height: normal;
+    & .form {}
+    & .permission-form {
+        padding: 10px 0 16px 0;
+    }
+    & .bold {
+        font-weight: bold;
+    }
+    & .pad {
+        height: 1px;
+        margin-bottom: 16px;
+        background-color: #e4e4e4;
+        overflow: hidden;
+    }
+}

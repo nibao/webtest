@@ -1,0 +1,14 @@
+   @import '../../../libs/root.css';
+   .item{
+       border:none;
+       width: 100%;
+       height: 100%;
+
+        &.confirmButton{
+            color:var(--anyshare-main-red);
+        }
+
+        &.cancelButton{
+            color:var(--font-color-blue-mobile);
+        }
+    }

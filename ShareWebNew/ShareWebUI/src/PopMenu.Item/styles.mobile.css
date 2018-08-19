@@ -1,0 +1,23 @@
+@import '../../libs/root.css';
+.item {
+    cursor: pointer;
+    min-width: 130px;
+    line-height: 30px;
+    & .label {
+        padding-right: 10px;
+        font-size: 13px;
+        color: var(--font-color-regular)
+    }
+    & .icon {
+        display: inline-block;
+        width: 30px;
+        text-align: center;
+        color: var(--anyshare-grey-07);
+    }
+    &:hover {
+        background: #f3f3fa;
+        & .label {
+            color: #d70000;
+        }
+    }
+}

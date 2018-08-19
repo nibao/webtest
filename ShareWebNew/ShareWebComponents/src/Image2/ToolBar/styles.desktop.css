@@ -1,0 +1,44 @@
+.container {
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    background: #000;
+    background: rgba(0, 0, 0, 0.8);
+    user-select: none;
+    white-space: nowrap;
+    .dragbar {
+        margin-right: 10px;
+    }
+    .icon {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 2px;
+        color: #bdbdbd;
+        &:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        &:active {
+            background: rgba(255, 255, 255, 0.1);
+        }
+    }
+    &>* {
+        margin-right: 10px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.title-dark{
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 8px 0 #000;
+    color: #bdbdbd;
+}

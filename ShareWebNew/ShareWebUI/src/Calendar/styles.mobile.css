@@ -1,0 +1,23 @@
+:local .calendar {
+    & .day {
+        vertical-align: middle;
+    }
+
+    & .cell {
+        border: 1px solid #d0d0d0;
+        text-align: center;
+        vertical-align: middle;
+        
+        &.selected {
+            background: #FFEEBB;
+        }
+
+        & .date {
+            width: 1.2rem;
+            height: 1.2rem;
+            line-height: 1.2rem;
+            display: block;
+            color: #555;
+        }
+    }
+}

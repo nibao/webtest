@@ -1,0 +1,12 @@
+:local .container {
+    & .tree-box {
+        width: 19rem;
+        height: 10rem;
+        overflow: auto;
+    }
+    
+    & .button-wrap {
+        display: inline-block;
+        margin: 0 .4rem;
+    }
+}

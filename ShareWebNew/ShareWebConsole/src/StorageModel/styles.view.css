@@ -1,0 +1,50 @@
+@import '../../libs/root.css';
+
+.storage-uninit{
+    
+    & .storage-uninit-container{
+        height: 140px;
+        padding: 20px 10px;
+
+        & .storage-uninit-head{
+            padding-bottom: 15px;
+        }
+
+        & .storage-uninit-body{
+            display: table;
+            width: 100%; 
+            padding-left: 20px;
+            line-height: 30px;
+
+            & .storage-uninit-option{
+                display: block;
+                
+                & .inline-radio{
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+            
+        }
+    }
+   
+}
+
+.font-bold{
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.font-color-red{
+    display: inline-block;
+    color: var(--anyshare-red-05);
+    vertical-align: middle;
+}
+
+.font-color-green{
+    display: inline-block;
+    color: var(--anyshare-green01);
+    vertical-align: middle;
+
+}

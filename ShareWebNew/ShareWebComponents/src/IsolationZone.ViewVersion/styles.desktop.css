@@ -1,0 +1,23 @@
+.data-grid{
+    border: 1px solid #dfdfdf;
+ 
+
+    & .field-name{
+        text-decoration:none;
+        color: #555;
+
+        &:hover{
+            
+        }
+
+        & .field-name-span{
+            padding-left: 5px;
+
+            &:hover{
+                cursor:pointer;
+                text-decoration:underline;
+            }
+        }
+    }
+}
+

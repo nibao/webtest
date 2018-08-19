@@ -1,0 +1,33 @@
+@import '../../libs/root.css';
+
+.container {
+    height: 100%;
+    font-size: var(--font-size-regular);
+    color: var(--font-color-regular);
+    
+    & .navigator {
+        background: #f9f9f9;
+        border-bottom: 1px solid #e0e0e0;
+        border-left: 1px solid #e0e0e0;
+    }
+    
+   & .tab-style {
+        width: 180px;
+        height: 64px;
+        margin-left: 46px; 
+    }
+
+   & .tab-font {
+        font-size: 16px; 
+        padding-top: 20px;
+    }
+
+    & .tabs-main {
+        position: static;
+        padding: 0 30px;
+
+        & .tabs-content {
+            position: static;
+        }
+    }
+} 

@@ -1,0 +1,7 @@
+@import '../../libs/root.css';
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background: var(--anyshare-grey-02);
+}

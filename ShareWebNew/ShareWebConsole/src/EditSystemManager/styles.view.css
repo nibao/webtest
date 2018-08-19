@@ -1,0 +1,30 @@
+@import '../../../libs/root.css';
+
+.mail {
+    display: table;
+
+    & .mail-input {
+        display: table-cell;
+
+        & .mail-size {
+            width: 300px;
+        }
+    }
+
+    & .mail-test {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 10px;
+    }
+}
+
+.auth-error {
+    color: var(--font-color-critical);
+    width: 360px;
+}
+
+
+.username-tip {
+    color: var(--font-color-critical);
+    margin-left: 10px;
+}

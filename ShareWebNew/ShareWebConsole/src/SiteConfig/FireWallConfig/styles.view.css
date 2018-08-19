@@ -1,0 +1,88 @@
+.firewall {
+    padding-left: 30px;
+    padding-right: 10px;
+
+    & .firewall-info {
+        padding: 20px 0 20px 0;
+
+        & .firewall-font {
+            font-size: 13px;
+            color: #505050;
+            margin-right: 5px;
+        }
+
+        & .firewall-switchButton {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: -6px;
+        }
+
+        & .firewall-tips {
+            display: inline-block;
+            font-size: 13px;
+            color: #868686;
+            padding-left: 20px;
+        }
+    }
+
+    & .accessing-rule-info {
+        padding-bottom: 10px;
+        
+        & .add-accessing-rule-btn{
+            background: #646b73;
+
+            & .add-accessing-rule-UIIcon{
+                padding: 0 10px 0 0;
+                vertical-align: top;
+                color: #fff;
+                font-size: 13px;
+            }
+
+            & .add-accessing-rule-fonts{
+                vertical-align: middle;
+                color: #fff;
+                font-size: 13px;
+            }
+        }
+
+        & .port-tips {
+            font-size: 13px;
+            color: #e60012;
+            display: inline-block;
+            padding-left: 20px;
+        }
+    }
+
+    & .dataGrid-list-container {
+        position: relative;
+
+        & .dataGrid-list {
+
+            & .dataGrid {
+                font-size: 14px;
+                color: #757575;
+
+                & .dataGrid-field {
+                    font-size: 13px;
+                    color: #505050;
+                    height: 32px;
+
+                    & .dataGrid-operation-edit {
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+
+        & .dataGrid-list-mask {
+            position: absolute;
+            top: 0px;
+            right: 0;
+            bottom: 0;
+            left: 0px;
+            background: #cfcfcf;
+            opacity: 0.5;
+        }                    
+    }
+}
+

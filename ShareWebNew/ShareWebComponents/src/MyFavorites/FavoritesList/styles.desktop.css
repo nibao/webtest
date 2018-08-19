@@ -1,0 +1,104 @@
+    @import '../../../libs/root.css';
+    
+    .favorites-list{
+        position:absolute;
+        top: 55px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: auto;
+        
+        & .item {
+            position:relative;
+            padding:5px 20px 5px 52px;
+
+            & .picture-field{
+                position:absolute;
+                top:0;
+                left:0;
+                padding:0 15px 0 5px;
+                height:58px;
+                line-height:58px;
+
+                & .picture{
+                    cursor: pointer;
+                }
+            }
+
+            & .name-field{
+                height: 24px;
+                line-height: 24px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+
+                & .name{
+                    display: inline;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        color: var(--font-color-link__hover);
+                    }
+
+                    &:active{
+                        color: var(--font-color-link__active);
+                    }
+                }
+            }       
+            
+            & .detail-and-operate{
+                height: 24px;
+                line-height: 24px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                        
+                & .detail{
+                    display: inline;
+                    color: var(--font-color-secondary);
+                    font-size:12px;          
+                }
+
+                & .size{
+                    display:inline;
+                    margin-left:var(--layout-spacing-medium);
+                    color: var(--font-color-secondary);
+                    font-size:12px; 
+                }
+
+                & .operate{
+                    display:inline-block;
+                    margin-left:var(--layout-spacing-large); 
+                    visibility: hidden;
+                    opacity: 0;
+
+                    & .icon-item{
+                        line-height:24px;
+                    }
+
+                    &.actived {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                }
+            }
+
+            &:hover .detail-and-operate .operate {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+
+    
+    .menu-icon{
+        display: inline-block;
+        width: var(--layout-spacing-large);
+        line-height: var(--layout-spacing-large);
+        text-align: center;
+        color:var(--font-color-list)
+    }
+
+
+  
+    

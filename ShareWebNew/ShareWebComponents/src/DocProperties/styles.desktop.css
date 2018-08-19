@@ -1,0 +1,22 @@
+.content-padding {
+    padding: 16px 10px 0 18px;
+}
+
+.tabnav {
+    display: table;
+    height: 44px;
+    width: 100%;
+    table-layout: fixed;
+    background: white;
+
+    & .tab {
+        display: table-cell;
+        padding: 0;
+        line-height: 44px;
+        height: 44px;
+    }
+}
+
+.tabmain {
+    margin-top: 10px;
+}

@@ -1,0 +1,36 @@
+
+@import '../../libs/root.css';
+.button-container{
+    display: inline-block;
+    height: 90%;
+    
+    & .button-btn{
+        border: 0;
+        text-align: left;
+        line-height: 30px;
+
+        & .button-box{
+
+            & .expand-icon{
+                padding-left: 5px;
+                cursor: pointer;
+                color: var(--anyshare-grey-07);
+            }
+        }
+        
+
+        &:hover {
+            background-color: var(--anyshare-grey-03);
+        }
+
+        &:active {
+            background-color: var(--anyshare-grey-04);
+        }
+    }
+
+    & .clicked{
+        background-color: var(--anyshare-grey-03);
+    }
+
+    
+}

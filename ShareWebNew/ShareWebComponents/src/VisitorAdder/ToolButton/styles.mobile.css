@@ -1,0 +1,28 @@
+@import '../../../libs/root.css';
+
+.tool {
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+
+    & .cancel-btn {
+        position: absolute;
+        padding: 0 20px;
+        color: var(--font-color-blue-mobile);
+    }
+
+    & .confirm-btn {
+        position: absolute;
+        right: 0px;
+        padding: 0 20px;
+    }
+
+    & .disable {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+
+    & .enable {
+        color: var(--font-color-blue-mobile);
+    }
+}

@@ -1,0 +1,14 @@
+.link {
+    margin-top: 10px;
+
+    & .link-chip {
+        color:#3c8eff;
+
+        &:hover {
+            color: #74aeff;
+        }
+        &:active{
+            color: #006bff;;
+        }
+    }
+}

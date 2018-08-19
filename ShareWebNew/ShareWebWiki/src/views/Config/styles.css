@@ -1,0 +1,14 @@
+.container {
+    padding-top: 100px;
+    text-align: center;
+    
+    & .panel {
+        display: inline-block;
+        background: #fefefe;
+
+        & .actions {
+            margin-top: 10px;
+            text-align: right;
+        }
+    }
+}

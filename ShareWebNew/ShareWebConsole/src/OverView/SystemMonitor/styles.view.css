@@ -1,0 +1,140 @@
+@import '../../../../libs/root.css';
+
+.contain {
+    height: 100%;
+    
+    & .form{
+        position: relative;
+        font-size:14px;
+        margin-left: 20px;
+        color: var(--font-color-regular);
+
+        & .alert-status {
+            display: block;
+            padding: 20px 0;
+
+            & .alert-status-item {
+                display: inline-block;
+
+                & .switch {
+                    display: inline-block;
+                    vertical-align: middle;
+                    padding: 0 5px;
+
+                    & .mail-btn {
+                        color: #5a8cb4;
+
+                        &:hover {
+                            color: #78b4d7;
+                        }
+
+                        &:active {
+                            color: #376ea0;
+                        }
+                    }
+                }
+
+                
+            }
+        }
+
+        & .warn-normal {
+            color: #81c884;
+        }
+
+        & .warn-error {
+            color: #e60012;
+        }
+        
+        & .line{
+            width: 1px;
+            background: #ccc;
+            height: 125px;
+            margin: 0 20px;
+        }
+
+        & .view-listen {
+            position: absolute;
+            bottom: -30px;
+            right: 20px;
+
+            & .link-btn {
+                color: #3c8eff;
+
+                &:hover {
+                    color: #74aeff;
+                }
+
+                &:active {
+                    color: #006bff;
+                }
+            }
+        }
+    }
+
+    & .left-label {
+        width: 80px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    & .combo-area {
+        width: 350px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    & .test-btn-site {
+        width: 80px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 10px;
+
+        & .test-btn-size {
+            min-width: 80px;
+        }
+    }
+    & .button {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    & .button-container {
+        margin-top: 5px;
+    }
+    & .form-data {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 10px;
+    }
+    & .validate-message {
+        position: absolute;
+        display: inline-block;
+        margin: 3px 0 0 3px;
+    }
+    & .locator {
+        display: none;
+    }
+
+    & .warn {
+        height: 240px;
+        color: var(--font-color-regular);
+
+        & .icon-warn {
+            color: #ccc;
+            padding-bottom: var(--layout-spacing-small);
+        }
+
+        & .set-node {
+            color: #5a8cb4;
+
+            &:hover {
+                color: #78b4d7;
+            }
+
+            &:active {
+                color: #376ea0;
+            }
+        }
+    }
+
+}

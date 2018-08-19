@@ -1,0 +1,23 @@
+:local .container{ 
+    text-align: center;
+    & .link {
+        color: #0066CC;
+        display: block;
+        margin: 20px 0;
+    }
+    & .link:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    & .fullimage {
+        padding: '30px 0';
+        text-align: center;
+        background-color: '#fff';
+    }
+    & .selectFormat {
+        position: relative;
+        top: 10px;
+        z-index: 2;
+        padding: 0 0 10px 6px;
+    }
+}

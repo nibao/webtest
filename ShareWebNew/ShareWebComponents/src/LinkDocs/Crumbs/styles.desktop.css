@@ -1,0 +1,49 @@
+.container{
+    user-select: none;
+
+    & .crumbs {
+        position: relative;
+        margin-right: 30px;
+        height: 54px;
+        line-height: 54px;
+        white-space: nowrap;
+        overflow: hidden;
+
+        & .crumbs-wrapper {
+            display: inline-block;
+            position: absolute;
+
+            &.overflow {
+                right: 0;
+            }
+        }
+
+        & .crumb {
+            display: inline-block;
+            white-space: pre;
+            background: #fff;
+
+            &.back {
+                position: relative;
+                z-index: 1;
+            }
+
+            & .crumb-link {
+                cursor: pointer;
+                color: #5a8cb4;
+
+                &:active {
+                    color: #376ea0;
+                }
+
+                &:hover {
+                    color: #78b4d7;
+                }
+            }
+
+            & .divider {
+                margin: 0 5px;
+            }
+        }
+    }
+}

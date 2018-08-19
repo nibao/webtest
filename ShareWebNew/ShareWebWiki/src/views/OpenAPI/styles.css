@@ -1,0 +1,15 @@
+.container {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+
+    & .config {
+        display: table-cell;
+        padding: 10px;
+    }
+
+    & .preview {
+        display: table-cell;
+        padding: 10px;
+    }
+}

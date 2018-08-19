@@ -1,0 +1,59 @@
+ .item {
+     margin-bottom: 10px;
+
+     & .left {
+         display: inline-block;
+         line-height: 24px;
+         height: 24px;
+         margin-bottom: 8px;
+         width: 120px;
+     }
+
+     & .form2 {
+         line-height: 24px;
+
+         & .info {
+             display: inline-block;
+             margin-left: 5px;
+             vertical-align: top;
+         }
+
+         & .latest-text {
+             padding: 0 4px;
+             height: 20px;
+             line-height: 20px;
+             border: solid 1px #aaa;
+             border-radius: 4px;
+         }
+
+         & .text-width {
+             max-width: 100%;
+         }
+
+         & .user-name {
+             max-width: 150px;
+         }
+     }
+
+     & .last-line {
+         margin-top: 2px;
+         line-height: 20px;
+         height: 20px;
+     }
+
+     & .pad {
+         margin: 16px 0px;
+         height: 1px;
+         background-color: #e4e4e4;
+         overflow: hidden;
+     }
+
+     & .right {
+         float: right;
+         width: 72px;
+
+         & .btn-margin {
+             margin-right: 24px;
+         }
+     }
+ }

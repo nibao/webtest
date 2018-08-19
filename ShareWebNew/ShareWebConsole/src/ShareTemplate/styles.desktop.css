@@ -1,0 +1,32 @@
+:local .container {
+    & .table-row-data {
+        margin-top: 10px;
+    }
+    & .datagrid {
+        width: 1000px;
+        & .tips_text {
+            color: #999999;
+        }
+        & .clear_history {
+            cursor: pointer;
+            float: right;
+            color: blue;
+            display: none;
+        }
+    }
+    & .info-header {
+        margin: 10px 0;
+    }
+    & .row-left {
+        width: 150px;
+        padding: 3px;
+    }
+    & .row-right {
+        width: 150px;
+        padding: 3px;
+    }
+    & .row-padding {
+        width: 300px;
+        padding: 3px;
+    }
+}

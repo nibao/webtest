@@ -1,0 +1,37 @@
+@import '../../../libs/root.css';
+
+.container{
+    position: fixed;
+    top: 134px;
+    right: 0;
+    bottom: 0;
+    left: 260px;
+    font-size: 13px;
+    color: var(--font-color-secondary);
+
+    & .warning-icon{
+        margin-bottom: 20px;
+    }
+
+    & .text-area {
+        line-height: 30px;
+
+        & .text-link{
+            color: #448AEA;
+            margin-left: 5px;
+
+            &:hover {
+                color: #74aeff;
+            }
+
+            &:active {
+                color: #006bff;
+            }
+        }
+        
+        & .or-text {
+            margin-left: 5px;
+        }
+    }
+}
+

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/src/reset.css">
+    <link rel="stylesheet" href="/sdk/anyshare.desktop.css">
+    <script src="/sdk/anyshare.desktop.js"></script>
+    <script>
+        window.AnyShare = AnyShare({
+            host: 'http://192.168.138.33',
+            EACPPort: 9998,
+            EFSPPort: 9123
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="demo"></div>
+
+    <script>
+        AnyShare.Components.Play({
+            link: {
+            }
+        }, document.querySelector('#demo'))
+    </script>
+</body>
+
+</html>

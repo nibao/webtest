@@ -1,0 +1,12 @@
+:local .container {
+    display: inline-block;
+    white-space: nowrap;
+
+    & .input {
+        vertical-align: middle;
+    }
+
+    & .unit {
+        margin: 0 5px;
+    }
+}

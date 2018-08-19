@@ -1,0 +1,66 @@
+@import '../../libs/root.css';
+
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 20px;
+    font-size: 13px;
+
+    & .header {
+        display: inline-block;
+        width: 100%;
+        height: 55px;
+        line-height: 55px;
+
+        & .share-apv {
+            margin-left: 10px;
+            color: var(--font-color-regular);
+        }
+
+        & .review-path {
+            display: inline-block;
+            padding: 0 0 15px 35px;
+        }
+
+        & .review-search {
+            float: right;
+            background: #fff;
+            z-index: 2;
+        }
+
+        & .select-type {
+            float: right;
+            padding-right: 10px;
+
+            & .select-reviewtype {
+                margin-right: var(--layout-spacing-small);
+                color: var(--font-color-regular);
+            }
+
+        }
+
+        & .search-box {
+            border-radius: 3px;
+            line-height: 15px;
+        }
+    }
+
+    & .list-container {
+        position: absolute;
+        top: 55px;
+        left: 20px;
+        right: 20px;  
+        bottom: 0; 
+    }
+
+    & .contextmenu-icon{
+        display: inline-block;
+        width: 30px;
+        line-height: 28px;
+        margin-right: 7px;
+        text-align: center;       
+    }
+}

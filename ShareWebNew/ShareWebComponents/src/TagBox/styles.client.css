@@ -1,0 +1,84 @@
+:local .container {
+    & .pad {
+        height: 1px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #e4e4e4;
+        overflow: hidden;
+    }
+    & .title {
+        padding: 24px 0px 5px;
+        vertical-align: bottom;
+        & .item {
+            display: inline-block;
+            padding-top: 5px;
+            & .text {
+                font-weight: bold;
+                vertical-align: middle;
+            }
+        }
+        & .right {
+            float: right;
+            & .cell {
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+                user-select: none;
+                text-align: center;
+                vertical-align: middle;
+                border: 1px solid transparent;
+                border-radius: 2px;
+                position: relative;
+                display: inline-block;
+                &:hover {
+                    background: #efefef;
+                    border-color: #d1d1d1;
+                }
+                &:active {
+                    background: #dadada;
+                    border-color: #e0e0e0;
+                }
+            }
+            & .inner {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                padding: 5px 0;
+                & .ui-icon {
+                    cursor: pointer;
+                }
+                &.disabled {
+                    @apply --disabled;
+                    cursor: default;
+                }
+            }
+        }
+    }
+    & .tags {
+        & .chip {
+            display: inline-block;
+            margin: 5px 1px 1px 1px;
+            cursor: pointer;
+            & :hover {
+                background-color: #FA192C;
+                color: #fff;
+                & a {
+                    color: #fff;
+                }
+            }
+
+            & .tag-chip {
+                max-width: 170px;
+                cursor: pointer;
+            }
+        }
+        & .no-tag {
+            padding: 6px 0;
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+        }
+    }
+
+}

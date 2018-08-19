@@ -1,0 +1,29 @@
+:local .container {
+    position: relative;
+    height: .5rem;
+    line-height: .5rem;
+
+    & .action {
+        padding: 0  0 0 .5rem;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        & .back {
+            color: #f0f0f0;
+            background-size: contain;
+        }
+    }
+
+    & .path {
+        padding: 0 .5rem;
+        position: absolute;
+        left: 1.5rem;
+        right: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+}

@@ -1,0 +1,10 @@
+@import '../../../libs/root.css';
+
+.disk-wrapper{
+    padding: var(--layout-spacing-medium) var(--layout-spacing-small) var(--layout-spacing-medium) var(--layout-spacing-large);
+
+    & .text{
+        height: var(--font-size-maintitle);
+        line-height: var(--font-size-maintitle);
+    }
+} 

@@ -1,0 +1,101 @@
+@import '../../../libs/root.css';
+
+.container{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;  
+    bottom: 0; 
+
+    & .list-name{
+        position: relative;
+          
+        & .picture-field{   
+            display: inline-block;
+        }
+
+        & .name-field{
+            display: inline-block;
+            height: 32px;
+            line-height: 32px;
+            margin-left: var(--layout-spacing-small);
+            color: var(--font-color-strong);
+            white-space: nowrap;
+        }
+
+        & .link-style{
+            cursor: pointer;
+
+            & .name{  
+
+                &:hover {
+                    color: var(--font-color-link__hover);
+                }
+
+                &:active {
+                    color: var(--font-color-link__active);
+                }
+            }
+
+        }
+
+        & .operate{
+            position: absolute;
+            top:5px;
+            right: var(--layout-spacing-small);
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s;
+
+            &.actived {
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+    }
+    
+    & .item-wrapper{
+        height: 16px;
+        line-height: 16px;
+        color: var(--font-color-secondary);
+    }
+
+    & .auditornames{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+    }
+
+    & .safari{
+        &::before{
+            content: '';
+            display: block;
+        }
+    }
+
+    & .passed{
+        color: #049800;
+    }
+
+    & .vetoed{
+        color:var(--anyshare-red-01);
+    }
+    
+    & .hover-action {
+
+        & .operate {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}
+
+.loading-text{
+    padding-top: var(--layout-spacing-medium);
+    color: var(--font-color-secondary);
+}
+
+
+
+

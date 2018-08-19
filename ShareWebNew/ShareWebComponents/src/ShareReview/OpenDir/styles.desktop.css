@@ -1,0 +1,65 @@
+@import '../../../libs/root.css';
+
+.hover-action {
+    & .action-icon  {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.action-icon {
+    position: absolute;
+    top:5px;
+    right: 200px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.actived {
+    visibility: visible;
+    opacity: 1;
+}
+
+.docname-item {
+    position: relative;
+
+    & .thumbnail {
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    & .doc-name {
+        display: inline-block;
+        height: 32px;
+        line-height: 32px;
+        margin-left: var(--layout-spacing-small);          
+
+        &:hover {
+            color: #5a8cb4;
+            cursor: pointer;
+        }
+
+        &:active{
+            color: #376ea0;
+        }
+    }
+
+}
+
+.csf-level {
+    line-height: 1.2;
+    color: var(--font-color-secondary);
+}
+
+.empty-message {
+    margin-top: 15px;
+    font-size: var(--font-size-subtitle);
+    color: var(--font-color-secondary);
+}
+
+.loading {
+    padding-top: var(--layout-spacing-medium);
+    color: var(--font-color-secondary);
+}

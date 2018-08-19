@@ -1,0 +1,54 @@
+.grounp-item{
+    margin-bottom: 10px;
+    .grounp-icon{
+        margin-right:10px;
+    }
+    .docname{
+        display: inline-block;
+        line-height: 24px;
+        vertical-align: middle;
+        max-width: 177px;
+        white-space: pre;
+    }
+    & .common{
+        width: 165px;
+    }
+    & .disabled{
+        border: transparent solid 1px!important;
+        box-shadow: none!important;
+        background-color: #ffffff!important;
+    }
+    & .warning{
+        border:red solid 1px!important;
+    }
+
+    .oper-icon-wrap{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right:15px;
+    }
+
+    .quota-box{
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .name-box{
+        max-width: 177px;
+    }
+    .stack-bar{
+        height: 20px;
+        vertical-align: middle;
+        background-color: #ffffff;
+    }
+    .quota-detail{
+        position: absolute;
+        height: 100%;
+        width:100%;
+        left:0;
+        top:0;
+        text-align: center;
+        line-height: 20px;
+        font-size: 12px;
+    }
+}

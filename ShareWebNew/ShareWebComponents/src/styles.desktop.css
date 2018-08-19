@@ -1,0 +1,15 @@
+:local(.warningHeader) {
+    font-size: 16px;
+    line-height: 2;
+    text-align: left;
+    color: #d70000;
+}
+
+:local(.warningContent) {
+    line-height: 1.5;
+    text-align: left;
+}
+
+:local(.warningFooter) {
+    margin-top: 20px;
+}

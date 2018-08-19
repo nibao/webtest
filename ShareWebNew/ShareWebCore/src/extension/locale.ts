@@ -1,0 +1,84 @@
+import i18n from '../i18n';
+
+export default i18n([
+    [
+        '个人文档',
+        '個人文件',
+        'My Documents'
+    ],
+    [
+        '共享文档',
+        '共用文件',
+        'Shared Documents'
+    ],
+    [
+        '群组文档',
+        '群組文件',
+        'Group Documents'
+    ],
+    [
+        '文档库',
+        '文件庫',
+        'Libraries'
+    ],
+    [
+        '文件夹',
+        '資料夾',
+        'Folder'
+    ],
+    [
+        '图片',
+        '圖片',
+        'Image'
+    ],
+    [
+        'WORD',
+        'WORD',
+        'WORD'
+    ],
+    [
+        'EXCEL',
+        'EXCEL',
+        'EXCEL'
+    ],
+    [
+        'PPT',
+        'PPT',
+        'PPT'
+    ],
+    [
+        'PDF',
+        'PDF',
+        'PDF'
+    ],
+    [
+        '文本',
+        '文字',
+        'Text'
+    ],
+    [
+        '压缩文件',
+        '壓縮封裝',
+        'Package'
+    ],
+    [
+        '视频',
+        '視訊',
+        'Video'
+    ],
+    [
+        '音频',
+        '音訊',
+        'Audio'
+    ],
+    [
+        'CAD',
+        'CAD',
+        'CAD'
+    ],
+    [
+        '其他',
+        '其他',
+        'Other'
+    ]
+])

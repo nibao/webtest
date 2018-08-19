@@ -1,0 +1,48 @@
+.item{
+    position: relative;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid #f4f4f4;
+    cursor: default;
+    box-sizing: border-box;
+    & .wrapper{
+        position: relative;
+        width: 100%;
+        transform: translateX(-1.5rem);
+        transition: transform 0.3s;
+        &.selecting{
+            transform: translateX(0);
+        }
+        &.checkbox-padding{
+            padding-left: 1.5rem;
+        }
+        &:hover{
+            background: #f5f9ff;
+        }
+        & .checkbox{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1.5rem;
+            height: 100%;
+            text-align: center;
+        }
+    }
+    &:hover{
+        border-top: 1px solid #e8f2f7;
+        border-bottom: 1px solid #e8f2f7;
+    }
+
+    &.selected{
+        border-top: 1px solid #e8f2f7;
+        & .wrapper{
+            background: #e8f2f7;
+            &:hover{
+                background: #e8f2f7;
+            }
+        }
+        &:hover{
+            border-top: 1px solid #b3b9ce;
+            border-bottom: 1px solid #b3c9ce;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+.item {
+    line-height: normal;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,38 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    color: #bfbfbf;
+    
+    & .role-msg{
+        margin-top: 30px;
+
+        & .rolename {
+            padding: 0 8px;
+        }
+    }
+    & .list {
+        margin-top: 30px;
+
+        & .item {
+            text-align: center;
+            cursor: pointer;
+            display: inline-block;
+            margin: 20px 0 0 40px;
+            padding: 0 10px 4px;
+
+            & .item-icon {
+                cursor: pointer;
+            }
+
+            & .item-text {
+                margin-top: 10px;
+            }
+        }
+
+        & .selected {
+            color: #7488a1;
+            background: #b5d5fc;
+            border-radius: 2px;
+        }
+    }
+}

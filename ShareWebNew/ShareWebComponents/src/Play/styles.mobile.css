@@ -1,0 +1,85 @@
+:local .container {
+    position: fixed;
+    top: 1.5rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #333;
+    & .main {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        & .mainPadding {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background: #000;
+            & .video {
+                display: inline-block;
+                position: absolute;
+                padding: 1rem 0;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                & .player {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                }
+                & .sidebar {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    transform: translateX(100%);
+                    transition: transform 0.3s;
+                    & .sidebarTools {
+                        display: inline-block;
+                        background: rgba(43, 51, 63, .7);
+                        & .sidebarButton {
+                            display: block;
+                            padding: 0.3rem;
+                            color: #9a9a9a;
+                            text-decoration: none;
+                            &.activeDefinition {
+                                color: #ffbf46;
+                            }
+                        }
+                    }
+                }
+                & .sidebar-active {
+                    transform: translateX(0);
+                }
+            }
+            & .message {
+                color: #fff;
+                & .paragraph {
+                    line-height: 1.5;
+                }
+                & .link {
+                    color: #ffbf46;
+                }
+            }
+
+            & .tip-message {
+                margin: 0 20px;
+                line-height: 1.5;
+                word-break: break-all;
+                text-align: center;
+            }
+        }
+    }
+}

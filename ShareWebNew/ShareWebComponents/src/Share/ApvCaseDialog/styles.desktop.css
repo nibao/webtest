@@ -1,0 +1,21 @@
+.apv-wrapper {
+    
+    & .a-link {
+        display: block;
+        padding-top: 16px;
+        color: #4d759e;
+    }
+
+    & .a-link:link {
+        text-decoration: none;
+    }
+
+    & .a-link:visited {
+        text-decoration: none;
+    }
+
+    & .a-link:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

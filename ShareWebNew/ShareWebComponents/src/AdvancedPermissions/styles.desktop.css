@@ -1,0 +1,23 @@
+:local .container {
+    & .block {
+        margin: 0 auto;
+        border: 1px solid #cfcfcf;
+    }
+    & .thread {
+        height: 30px;
+        vertical-align: middle;
+        background-color: #f7f7f7;
+        border: 1px solid #cfcfcf;
+        padding: 0 10px;
+        text-align: center;
+    }
+    & tr {
+        vertical-align: inherit;
+        border-color: inherit;
+        & td {
+            vertical-align: middle;
+            padding: 5px 10px;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+@import '../../../libs/root.css';
+
+.select-menu{
+
+    & .attr-title{
+        color: #868686;
+    }
+
+    & .select-menu-btn{
+        position: relative;
+        display: inline-block;
+        width: 200px;
+        border: 0;
+        border: 1px solid var(--anyshare-grey-03);
+        text-align: left;
+        padding-left: 16px;
+   
+        & .expand-icon{
+            position: absolute;
+            right: 10px;
+            display: inline-block;
+            margin-left:10px;
+            cursor: pointer;
+        }
+ 
+        &:hover {
+            background-color: var(--anyshare-grey-03);
+        }
+
+        &:active {
+            background-color: var(--anyshare-grey-04);
+        }
+    }
+
+    & .clicked{
+            background-color: var(--anyshare-grey-03);
+    }
+   
+}
+
+.condition-select-menu{
+    width: 200px;
+
+    & .condition-select-items{
+        padding: 0 0 0 15px;
+    }
+}

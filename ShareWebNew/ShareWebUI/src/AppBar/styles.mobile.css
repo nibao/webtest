@@ -1,0 +1,7 @@
+.app-bar{
+    position: relative;
+    height: 1.6rem;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 1.6rem;
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,77 @@
+.docname {
+    margin-left: 10px;
+}
+
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.linkInfo {
+    padding: 20px 10px;
+    border-radius: 3px;
+    background-color: #efefef;
+}
+
+.block {
+    margin: 10px 0;
+}
+
+.scan {
+    text-align: center;
+}
+
+.buttonWrapper {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.sendMailIcon {
+    text-align: center;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.config {
+    padding: 5px;
+    border: 1px solid #d0d0d0;
+
+    & .permOption {
+        display: inline-block;
+        margin-right: 10px;
+    }
+}
+
+.linkInfo{
+    padding: 20px 10px;
+    border-radius: 3px;
+    background-color: #efefef;
+}
+
+.spliter {
+    border-top: 1px solid #d0d0d0;
+    margin: 10px 0;
+}
+
+.shareOptions {
+    padding: 10px;
+    background-color: #efefef;
+}
+
+.qrcode-action {
+    color: #0066CC;
+    display: block;
+    margin: 20px 0;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    &:active {
+        background: #fff;
+    }
+}

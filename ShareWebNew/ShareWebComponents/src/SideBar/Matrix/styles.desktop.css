@@ -1,0 +1,97 @@
+:local .container {
+    font-size: 10px;
+    & .matrix-pad {
+        &.glob-ops {
+            background: #fafafa;
+            border: solid #e0e0e0;
+            border-width: 1px 0;
+        }
+        & .matrix {
+            width: 100%;
+            table-layout: fixed;
+            & .matrix-cell {
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                vertical-align: middle;
+            }
+        }
+        & .matrix-local {
+            & .matrix-cell {
+                width: 60px;
+                height: 60px;
+                padding: 5px 0;
+                text-align: center;
+                vertical-align: middle;
+            }
+        }
+        & .no-border {
+            border-left: 0px;
+        }
+        & .pane-margin {
+            margin: 5px 0px 3px;
+        }
+    }
+}
+
+.menu-icon {
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.drop {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    .item {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 10px;
+        & .pad {
+            padding-right: 10px;
+            display: inline-block;
+            &.disabled {
+                @apply --disabled;
+                cursor: default;
+            }
+        }
+        &:hover {
+            background: #fafafa;
+            border-color: #d1d1d1;
+            color: #d70000;
+        }
+        &:active {
+            background: #eeeeee;
+            border-color: #e0e0e0;
+            color: #d70000;
+        }
+    }
+}
+
+.approval-icon {
+    display: inline-block;
+    .badge {
+        position: absolute;
+        top: 5px;
+        left: 15px;
+        display: inline-block;
+        width: 16px;
+        height: 5px;
+        line-height: 6px;
+        padding: 3px 4px 4px 4px;
+        margin: 2px 0px 0 2px;
+        background: #d70000;
+        border-radius: 20px;
+        color: #fff;
+    }
+    .circles {
+        padding: 3px 10px 4px 4px;
+        text-align: center;
+        border-radius: 50px;
+    }
+    .oval {
+        padding: 3px 2px 4px 10px;
+    }
+}

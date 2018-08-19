@@ -1,0 +1,103 @@
+:local {
+    & .container {
+        position: relative;
+        height: 100%;
+        background-color: #fff;
+        border: 1px solid #E3E3E3;
+        border-radius: 4px;
+
+        & .header {
+            height: 35px;
+            border-bottom: 1px solid #E3E3E3;
+            background-color: #F6F7FC;
+
+            & .title {
+                line-height: 35px;
+                font-size: 14px;
+            }
+
+            & img {
+                position: relative;
+                top: -2px;
+                margin: 0 8px 0 12px;
+            }
+        }
+
+        & .docs {
+            position: absolute;
+            top: 35px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            & tr {
+                border-color: transparent !important;
+            }
+
+            & .download-icon * {
+                vertical-align: top;
+                visibility: hidden;
+            }
+
+            & .time-cell {
+                color: #868686;
+            }
+
+            & .highlight:hover {
+                background-color: #F5F9FF;
+                
+                & * {
+                    color: #619AC7;
+                }
+
+                & .download-icon * {
+                    visibility: visible;
+                }
+            }
+        }
+
+        & .loading {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 30px;
+            height: 30px;
+            margin: -15px 0 0 -15px;
+        }
+        
+        & .empty {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #B0B0B0;
+        }
+
+        & .cell-name {
+            position: relative;
+            white-space: nowrap;
+
+            & .dot {
+                display: inline-block;
+                width: 10px;
+                margin-left: -3px;
+                margin-right: 5px;
+                margin-top: -30px;
+                color: #454545;
+                font-size: 30px;
+            }
+            
+            & .docname {
+                max-width: 100%;
+                height: 20px;
+                line-height: 22px;
+                text-indent: 38px;
+                position: absolute;
+                left: 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                color: #454545;
+            }
+        }
+    }
+}

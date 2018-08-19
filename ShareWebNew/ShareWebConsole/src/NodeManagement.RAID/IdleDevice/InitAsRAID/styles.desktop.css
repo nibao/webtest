@@ -1,0 +1,18 @@
+@import '../../../../libs/root.css';
+
+.tips{
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: var(--layout-spacing-large);
+    line-height: var(--layout-spacing-large);  
+}
+
+.strategy{
+    margin-top: var(--layout-spacing-medium);  
+}
+
+.p{
+    text-align: center;
+    margin-top:  var(--layout-spacing-large);
+}

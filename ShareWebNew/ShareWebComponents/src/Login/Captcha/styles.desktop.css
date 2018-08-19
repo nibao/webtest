@@ -1,0 +1,19 @@
+.captach {
+    display: table;
+
+    & .captach-input {
+        display: table-cell;
+        vertical-align: middle;
+
+        & .captach-input-size {
+            padding:11px 10px 10px 10px;
+            border-radius: 5px;
+        }
+    }
+
+    & .captach-img {
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 10px;
+    }
+}

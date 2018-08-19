@@ -1,0 +1,45 @@
+@import '../../libs/root.css';
+
+.container {
+    display: inline-block;
+
+    & .control {
+        position: relative;
+
+        & .select {
+            position: relative;
+            display: block;
+            height: 15px;
+            line-height: 15px;
+            text-decoration: none;
+            color: #000;
+            outline: none;
+
+            & .text {
+                display: block;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                text-align: left;
+            }
+
+            & .drop-icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+                color: #333;
+            }
+        }
+    }
+
+    & .options {
+        visibility: hidden;
+        position: absolute;
+        min-width: 90px;
+        max-height: 200px;
+
+        &.active {
+            visibility: visible;
+        }
+    }
+}

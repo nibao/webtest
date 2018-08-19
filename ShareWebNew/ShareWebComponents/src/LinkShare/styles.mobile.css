@@ -1,0 +1,66 @@
+:local .container{        
+    & .block {
+        margin: 2rem 0;
+    }
+
+    & .buttons {
+        display: table;
+        width: 100%;
+
+        & .buttonWrapper {
+            display: table-cell;
+            width: 50%;
+            padding: 0 1rem;
+        }
+    }
+
+    & .sendMailIcon {
+        text-align: center;
+    }
+
+    & .invisible {
+        visibility: hidden;
+    }
+
+    & .config {
+        padding: 5px;
+        border: 1px solid #d0d0d0;
+
+        & .permOption {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+    }
+    
+    & .linkInfo{
+        padding: 2rem 2rem;
+        border-radius: 1rem;
+        background-color: #efefef;
+    }
+
+    & .spliter {
+        border-top: 1px solid #d0d0d0;
+        margin: 10px 0;
+    }
+
+    & .shareOptions {
+        padding: 10px;
+        background-color: #efefef;
+    }
+
+    & .body {
+        padding: 10px;
+    }
+
+    & .hideDialog {
+        visibility: hidden;
+    }
+    & .apvDialog {
+        color:#4d759e;
+        margin-top:20px;
+        display:block;
+    }
+    & .marginLeft{
+        margin-left:5px
+    }
+}

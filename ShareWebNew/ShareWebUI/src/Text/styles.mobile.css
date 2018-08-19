@@ -1,0 +1,12 @@
+.text {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    user-select: none;
+
+    &.selectable {
+        user-select: text;
+    }
+}

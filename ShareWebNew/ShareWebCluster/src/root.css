@@ -1,0 +1,16 @@
+@import '../libs/root.css';
+
+html {
+    font-size: var(--font-size-regular);
+    font-family: var(--font-family);
+    user-select: none;
+}
+
+body {
+    font-size: var(--font-size-regular);
+}
+
+::-ms-clear,
+::-ms-reveal {
+    display: none;
+}

@@ -1,0 +1,45 @@
+:local .container {
+
+    & .header-line{
+        height: 1px;
+        background: #fff;
+    }
+    & .login-body {
+        text-align:center;
+        width: 400px;
+        margin: 0 auto;
+
+        & .header-font{
+            font-size: 26px;
+            padding: 55px 0 20px 0;
+            color: #595656;
+        }
+
+        & .user-icon{
+            padding: 0 0 28px 0;
+            text-align: center;
+            color: #bdbdbd;
+            height: 102px;
+        }
+
+        & .selected-color {
+            color:#598cb7; 
+        }
+
+        & .oem-organization {
+            font-size: 16px;
+            color: #8c8080;
+            padding-bottom: 35px;
+            height: 21px;
+        }
+
+        & .login-third {
+            height: 190px;
+        }
+    }
+
+    & .panel-selected {
+        padding: 10px 0 25px 0;
+    }
+
+}

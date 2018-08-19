@@ -1,0 +1,21 @@
+:local .formatter {
+    &:hover {
+        & .text {
+            text-decoration: underline;
+        }
+    }
+    & .text {
+        padding-left: 10px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    & .enabled {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    & .disabled {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+    }
+}

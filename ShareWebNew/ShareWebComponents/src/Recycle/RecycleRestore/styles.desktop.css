@@ -1,0 +1,41 @@
+
+.dialog {
+    line-height: 18px;
+    overflow: hidden;
+
+    & .first-line {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    & .second-line {
+        margin-top: 20px;
+
+        & .text-line{
+            display: inline-block;
+            height: 32px;
+            font-size: 14px;
+            line-height: 32px;
+            vertical-align: middle;
+            margin-left: 10px;
+            max-width: 290px;
+        }
+    }
+
+    & .red{
+        color: #ac000e;
+    }
+
+    & .third-line{
+        display: -webkit-box;
+        margin-top: 20px;
+        line-height: 1.5;
+        max-height: 95px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // white-space: nowrap;
+        text-align: left;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+    }
+}

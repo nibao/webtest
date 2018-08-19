@@ -1,0 +1,14 @@
+:local .container {
+    & tr {
+        vertical-align: inherit;
+        border-color: inherit;
+        & .second-line {
+            padding-top: 10px;
+        }
+        & td {
+            padding: 0 25px 0 0;
+            text-align: left;
+            vertical-align: top
+        }
+    }
+}

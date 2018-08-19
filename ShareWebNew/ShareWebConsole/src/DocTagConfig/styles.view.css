@@ -1,0 +1,51 @@
+:local .container {
+    margin-bottom: 30px;
+    & .header {
+        height: 28px;
+        line-height: 28px;
+        padding: 3px 10px;
+        border: 1px solid #CCCCCC;
+        border-radius: 2px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 13px;
+        color: #555;
+        & .header-label {
+            margin-left: 6px;
+        }
+    }
+    & .main {
+        padding-left: 10px;
+        margin-bottom: 10px;
+        & .text {
+            line-height: 30px;
+            display: inline-block;
+        } 
+        & .end-text {
+            margin-right: 5px;
+        }
+        & .tag-number {
+            display: inline-block;
+            width: 50px;
+            margin-left: 5px;
+        }
+        & .text-box {
+            vertical-align: middle;
+            margin: 0 5px 0 5px;
+        }
+        & .a-link {
+            margin-left: 5px;
+            color: #06f;
+            font-size: 12px;
+        }
+        & .a-link:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        & .error-message {
+            display: inline-block;
+            color: #ac000e;
+            margin-left: 5px;
+        }
+    }
+}

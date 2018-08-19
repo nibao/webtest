@@ -1,0 +1,45 @@
+.container{
+    width: 300px;
+    margin :auto;
+    & .big-title{
+        text-align: left;
+        font-size: 18px;
+        text-indent: 1em;
+        padding-bottom : 20px;
+        border-bottom: 1px solid #CCC;
+    }
+    & .form{
+        width: 100%;
+        border-spacing: 0 10px;
+        margin: 10px 0;
+    }
+    & .text-box{
+        width: 170px;
+    }
+    & .label{
+        width: 100%;
+        text-align: right;
+        display: inline-block;
+    }
+    & .login-submit{
+        margin:10px 0;
+        & .input-btn{
+            width: 100%;
+            height: 40px;
+            background-color: #d70000;
+            border: 0;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #fff;
+            &:hover{
+                background-color: #d70000;
+            }
+        }
+    }
+    & .error-message {
+        color: #ac000e;
+        font-size: 12px;
+        min-height: 16px;
+        text-align: right;
+    }
+}

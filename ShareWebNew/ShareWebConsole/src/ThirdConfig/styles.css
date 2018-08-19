@@ -1,0 +1,88 @@
+:local .container{
+
+    & .content{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    & .header{
+        background: url("./assets/info_header_bg.png") repeat-x scroll left top;
+        height: 28px;
+        line-height: 28px;
+        padding: 3px 10px;
+        border: 1px solid #CCCCCC;
+        border-radius: 2px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        color: #555;
+    }
+
+    & .checkbox{
+        width: 3px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    & .buttonWrapper {
+        display: inline-block;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+    & .buttonGroup {
+        margin: 5px 0;
+        display: inline-block;
+    }
+
+    & .btn-uploader-picker {
+        height: 28px;
+        width: 70px;
+        line-height: 28px;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 14px;
+        overflow: hidden;
+        border: 1px solid #D0D0D0;
+        color: #000;
+        background-image: linear-gradient(#fff,#efefef);
+        background-color: #efefef;
+        position: relative;
+    }
+
+    & .red {
+        color: red;
+    }
+
+    & .green {
+        color: green;
+    }
+
+    & .filename {
+        height: 20px;
+        padding: 5px;
+        border: 1px solid #d0d0d0;
+        border-radius: 5px;
+        width: 169px;
+        display: inline-block;
+        line-height: 20px;
+        vertical-align: middle;
+    } 
+
+    & .upload-wrapper{
+        margin-top: 10px;
+    }
+
+    & .header-title{
+        font-weight: 600;
+        padding-left: 8px;
+        background: no-repeat left center;
+        vertical-align: middle;
+        display: inline-block;
+    }
+
+    & .v-middle{
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+
+}

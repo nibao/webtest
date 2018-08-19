@@ -1,0 +1,16 @@
+:local .meta {
+    display: table-row;
+    & .name {
+        display: table-cell;
+        padding-top: 10px;
+    }
+    & .val {
+        display: table-cell;
+        padding: 10px 0px 0px 10px;
+        word-break: break-all;
+        & .elastic {
+            color: #2B78E4;
+            cursor: pointer;
+        }
+    }
+}

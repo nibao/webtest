@@ -1,0 +1,30 @@
+.line-area {
+    padding: 0 20px 0 10px;
+    line-height: 50px;
+    border-top: solid 1px #eee;
+
+    & .perm-label {
+        display: inline-block;
+        position: absolute;
+        width: 70px;
+        margin-left: 5px;
+    }
+
+    & .perm-value {
+        display: inline-block;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 70px;
+        text-align: right;
+
+        & .allow-deny-value {
+            display: inline-block;
+            width: 80px;
+        }
+    }
+}
+
+.grey-back {
+    background: #f9f9f9;
+}
+

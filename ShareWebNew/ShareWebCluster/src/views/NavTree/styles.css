@@ -1,0 +1,58 @@
+.node-content {
+    height: 35px;
+    padding-left: 10px;
+    line-height: 35px;
+
+    &.active{
+        background-color: #e0e5e9;
+    }
+
+    &:hover {
+        background-color: #ecf0f3;
+    }
+
+    &:active {
+        background-color: #e0e5e9;
+    }
+
+    & .item {
+        padding-right: 10px;
+    }
+
+}
+
+.toggler {
+    vertical-align: middle;
+}
+
+.leaf {
+    visibility: hidden;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    &:link,
+    &:hover,
+    &:active,
+    &:visited{
+        color: #000;
+    }
+}
+
+.level1 {
+    padding-left: 5px;
+}
+
+.level2 {
+    padding-left: 15px;
+}
+
+.level3 {
+    padding-left: 25px;
+}
+
+.level4 {
+    padding-left: 45px;
+}

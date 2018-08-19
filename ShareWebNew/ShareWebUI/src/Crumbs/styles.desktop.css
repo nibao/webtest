@@ -1,0 +1,52 @@
+:local .container {
+    font-size: 13px;
+    line-height: 1.5;
+
+    & .back {
+        display: inline-block;
+        vertical-align: bottom;
+    }
+
+    & .spliter {
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: bottom;
+    }
+
+    & .crumbs {
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        vertical-align: bottom;
+         
+        & .crumb {
+            display: table-cell;
+            padding: 0 5px;
+            vertical-align: middle;
+
+            & .crumbWrap {
+                text-align: center;
+                
+                & .joiner {
+                    margin-right: 10px;
+                    color: #B0B0B0;
+                }
+
+                & .link {
+                    color: #0066CC;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            &:first-child {
+                & .joiner {
+                    display: none;
+                }
+            }
+        }
+    } 
+}

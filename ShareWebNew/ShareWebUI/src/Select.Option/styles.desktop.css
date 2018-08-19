@@ -1,0 +1,21 @@
+@import '../../libs/root.css';
+
+.option {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #e2e2f2;
+    }
+
+    &.selected {
+        background-color: #e2e2f2;
+        color: var(--anyshare-main-red);
+    }
+}

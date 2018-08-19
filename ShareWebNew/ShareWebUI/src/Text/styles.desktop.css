@@ -1,0 +1,25 @@
+.text {
+    display: block;
+    text-align: left;
+    user-select: none;
+
+    & .selectable {
+        user-select: text;
+    }
+}
+
+.ellisize-tail {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.safari{
+    &::before{
+        content: '';
+        display: block;
+    }
+}
+
+
+

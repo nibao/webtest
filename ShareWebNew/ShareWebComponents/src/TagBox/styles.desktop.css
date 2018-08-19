@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+    padding: 0 15px;
+
+    & .tools {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        z-index: 1;
+    }
+
+    & .tags {
+        padding: 5px 0;
+
+        & .chip {
+            display: inline-block;
+            margin: 5px;
+            cursor: pointer;
+
+            & :hover {
+                background-color: #FA192C;
+                color: #fff;
+            }
+
+            & .tag-chip {
+                max-width: 190px;
+                cursor: pointer;
+            }
+        }
+        & .no-tag {
+            opacity: 0.5;
+            filter: alpha(opacity=50);
+            padding-top: 10px;
+        }
+    }
+
+    & .fold {
+        background: white !important;
+        line-height: 40px !important;
+        height: 40px !important;
+        border-bottom: 1px solid #f4f4f4;
+    }
+}

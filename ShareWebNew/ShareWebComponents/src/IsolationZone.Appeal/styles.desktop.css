@@ -1,0 +1,29 @@
+.appeal-tips {
+    display: inline-block;
+    overflow: hidden;
+    height: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+    vertical-align: top;
+    text-align: right;
+   
+}
+
+.appeal-box {
+    display: inline-block;
+    width: 340px;
+
+    & .appeal-area {
+        height: 200px !important;
+        width: 320px !important;
+        vertical-align: top;
+    }
+    
+    & .appeal-range-tips {
+        width: 340px;
+        padding-top: 20px;
+        padding-left: 5px;
+        color: red;
+        text-align: left;
+    }
+}

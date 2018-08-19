@@ -1,0 +1,8 @@
+:local .container {
+    position: fixed;
+    width: 10rem;
+    border-radius: .25rem;
+    background: #FFF;
+    z-index: 20;
+    width: 275px;
+}

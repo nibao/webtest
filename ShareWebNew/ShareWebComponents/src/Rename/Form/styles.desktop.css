@@ -1,0 +1,12 @@
+.container{
+    display: inline-block;
+    line-height: 16px;
+
+    & .actions{
+        display: inline-block;
+        vertical-align: middle;
+        & .button{
+            margin-left: 10px;
+        }
+    }
+}

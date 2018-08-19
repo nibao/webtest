@@ -1,0 +1,72 @@
+@import '../../../../../libs/root.css';
+.range-condition-box{
+    display: table-cell;
+    width: 25%;
+
+    & .attr-title{
+        color: var(--font-color-secondary);
+    }
+
+    & .horrible-box{
+        display: inline-block;
+    }
+    
+    & .search-range-container{
+        display: inline-block;
+        height: 90%;
+
+        & .search-range-button{
+            border: 0;
+
+            & .range-tree-container{
+                display: inline-block;
+
+                & .range-tree-icon{
+                    padding: 0 4px;
+                }
+            }
+
+            &:hover {
+                background-color: var(--anyshare-grey-03);
+            }
+
+            &:active {
+                background-color: var(--anyshare-grey-04);
+            }
+        }
+
+        
+
+    }
+
+    & .range-btn-clicked{
+        background-color: var(--anyshare-grey-03);
+    }
+    
+}
+
+.condition-range-menu{
+    width: 350px;
+    height: 400px;
+    padding: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+    
+    & .range-name-box{
+        
+        & .range-name{
+            display: inline-block;
+            height: 30px;
+            margin-left: 10px;
+            line-height: 30px;
+        }
+
+        & .root-range-name{
+            margin-left: 0px;   
+        }
+    }
+    
+    & .search-range-button{
+        border: 0;
+    }
+}

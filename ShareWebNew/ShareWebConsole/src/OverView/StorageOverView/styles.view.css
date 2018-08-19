@@ -1,0 +1,83 @@
+
+
+@import '../../../../libs/root.css';
+
+
+.contain {
+    height: 100%;
+    
+    & .form{
+        font-size:14px;
+        margin: 10px 0 0 20px;
+        color: var(--font-color-regular);
+
+        & .model {
+            color: var(--font-color-regular);
+            font-weight: blod;
+        }
+
+        & .model-set {
+            margin-left: 15px;
+        }
+
+        & .model-status {
+            margin-left: 15px;
+            color: #81c884;
+        }
+
+        & .quota{
+            display: block;
+            width: 330px;
+            vertical-align: middle;
+
+            & .quota-num {
+                display: inline-block;
+                width: 50px;
+                vertical-align: middle;
+            }
+
+            & .quota-bar {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+
+        & .quota-not-exist {
+            color: var(--anyshare-main-red);
+        }
+    }
+
+    & .warn {
+        height: 240px;
+
+        & .icon-warn {
+            color: #ccc;
+            padding-bottom: var(--layout-spacing-small);
+        }
+
+        & .set-node {
+            color: #5a8cb4;
+
+            &:hover {
+                color: #78b4d7;
+            }
+
+            &:active {
+                color: #376ea0;
+            }
+        }
+    }
+
+    & .replicas-panel {
+        padding: 10px 0;
+    }
+
+    & .replicas-panel-title {
+        display: inline-block;
+        width:60px;
+    }
+    
+    & .load {
+        height: 280px;
+    }
+}

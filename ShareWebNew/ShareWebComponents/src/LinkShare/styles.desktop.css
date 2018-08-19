@@ -1,0 +1,16 @@
+.container {
+    & .docname {
+        margin-left: 10px;
+    }
+
+    & .link:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    & .linkInfo {
+        padding: 20px 10px;
+        border-radius: 3px;
+        background-color: #efefef;
+    }
+}

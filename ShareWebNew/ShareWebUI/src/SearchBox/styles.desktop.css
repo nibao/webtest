@@ -1,0 +1,41 @@
+@import '../../libs/root.css';
+
+.searchbox {
+    & .icon-indent {
+        margin-left: 24px;
+    }
+
+    & .clear-indent {
+        margin-right: 24px;
+    }
+
+    & .icon {
+        position: absolute;
+        top: 7px;
+        left: 8px;
+    }
+
+    & .clear {
+        position: absolute;
+        top: 7px;
+        right: 8px;
+
+        & .chip-x-icon{
+            color: var(--anyshare-grey-06);
+
+            &:hover {
+                cursor: pointer;
+                color: var(--anyshare-grey-05);
+            }
+            &:active {
+                color: var(--anyshare-grey-07);
+            }
+        }
+    }
+
+    & .icon-padding {
+        padding: 0 3px;
+    }
+
+    
+}

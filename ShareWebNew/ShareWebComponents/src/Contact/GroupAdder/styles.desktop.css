@@ -1,0 +1,15 @@
+@import '../../../libs/root.css';
+.dialog{
+    position: relative;
+    padding: 20px 10px;
+    box-sizing: border-box;
+
+    & .input{
+        margin-left:10px;
+
+    }
+
+    & .warning{
+        color: var(--font-color-critical);
+    }
+}

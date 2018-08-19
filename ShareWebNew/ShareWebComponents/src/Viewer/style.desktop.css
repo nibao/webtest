@@ -1,0 +1,71 @@
+:local .container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 1px solid #D0D0D0;
+    &.lightoff {
+        & .header {
+            background-color: #333;
+            & .headerPadding {
+                border-bottom: 1px solid #252525;
+                & .title {
+                    color: #f0f0f0;
+                }
+            }
+        }
+        & .main {
+            background-color: #333;
+        }
+    }
+    & .lightoff-button {
+        background-color: #555;
+        border: 1px solid #333;
+        color: #f0f0f0;
+        &:hover {
+            background-color: #888;
+        }
+    }
+    & .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 44px;
+        line-height: 44px;
+        background-color: #EFEFEF;
+        & .headerPadding {
+            border-bottom: 1px solid #c8c8c8;
+            & .title {
+                font-size: 14px;
+                font-weight: bold;
+                text-indent: 10px;
+                width: 1000px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+            & .action {
+                margin-right: 10px;
+                display: inline-block;
+                white-space: nowrap;
+            }
+        }
+    }
+    & .main {
+        position: absolute;
+        top: 45px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #f8f8f8;
+    }
+    & .avoid-copy * {
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+        filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=0, MakeShadow=false);
+    }
+}

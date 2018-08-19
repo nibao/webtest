@@ -1,0 +1,17 @@
+.block {
+    margin: 10px 0;
+}
+
+.spliter {
+    border-top: 1px solid #d0d0d0;
+    margin: 10px 0;
+}
+
+.sendMailIcon {
+    text-align: center;
+}
+
+.mails {
+    width: 100%;
+    box-sizing: border-box;
+}

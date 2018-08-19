@@ -1,0 +1,16 @@
+
+.add-nodeinfos{
+    margin-top: 350px;
+    text-align: center;
+
+    .content{
+        margin-top: 20px;
+
+        .link{
+            display: inline-block;
+            color: #2b78ec;
+        }
+    }
+}
+
+  

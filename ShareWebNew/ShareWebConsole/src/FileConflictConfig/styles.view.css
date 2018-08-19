@@ -1,0 +1,51 @@
+:local .container {
+    margin-bottom: 30px;
+    & .header {
+        height: 28px;
+        line-height: 28px;
+        padding: 3px 10px;
+        border: 1px solid #CCCCCC;
+        border-radius: 2px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 13px;
+        color: #555;
+        background-color: #fdfcfc;
+        & .header-label {
+            margin-left: 6px;
+        }
+    }
+    & .main {
+        padding-left: 10px;
+        & .filed {
+            & .item {
+                padding: 5px 0;
+                & .label {
+                    margin-left: 0.5em;
+                }
+                & .select {
+                    vertical-align: middle;
+                }
+                & .left-text {
+                    margin-right: 10px;
+                }
+                & .right-text {
+                    margin-left: 10px;
+                }
+            }
+            & .tip {
+                margin: 10px 0;
+                text-indent: 1.5em;
+                color: #aeaeae;
+            }
+        }
+    }
+    & .footer {
+        padding-left: 10px;
+        margin-top: 5px;
+        & .button-wrapper {
+            display: inline-block;
+            margin-right: 5px;
+        }
+    }
+}

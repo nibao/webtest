@@ -1,0 +1,10 @@
+.error-size {
+
+    height: 30px;
+    
+    & .input-error {
+        color: #d70000;
+        display: block;
+        text-align: left;
+    }
+}

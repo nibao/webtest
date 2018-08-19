@@ -1,0 +1,67 @@
+{
+    "auto_lock_remind": true,
+    "cad_plugin_threshold": 10485760,
+    "csf_level_enum": {
+        "内部": 6,
+        "机密": 8,
+        "秘密": 7,
+        "非密": 5
+    },
+    "device_info": {
+        "auth_days": 338,
+        "auth_status": 2,
+        "auth_type": 2,
+        "hardware_type": "S6020"
+    },
+    "enable_doc_comment": true,
+    "enable_invitation_share": false,
+    "enable_limit_rate": false,
+    "enable_link_access_code": false,
+    "enable_message_notify": true,
+    "enable_secret_mode": false,
+    "enable_strong_pwd": false,
+    "entrydoc_view_config": 1,
+    "extapp": {
+        "enable_chaojibiaoge": false,
+        "enable_qhdj": false
+    },
+    "forbid_ostype": "0",
+    "https": false,
+    "internal_link_prefix": "AnyShare:\/\/",
+    "limit_rate_config": {
+        "isenabled": false,
+        "limittype": 0
+    },
+    "oemconfig": {
+        "allowauthlowcsfuser": true,
+        "allowowner": true,
+        "cadpreview": true,
+        "cadurl": "http:\/\/192.168.138.152:16125",
+        "clearcache": false,
+        "clientlogouttime": -1,
+        "defaultpermexpireddays": -1,
+        "enableclientmanuallogin": true,
+        "enablecsflevel": true,
+        "enablefiletransferlimit": false,
+        "enableonedrive": false,
+        "enableshareaudit": false,
+        "enableuseragreement": false,
+        "hidecachesetting": false,
+        "indefiniteperm": true,
+        "maxpassexpireddays": -1,
+        "owasurl": "",
+        "rememberpass": true,
+        "wopiurl": ""
+    },
+    "server_version": "6.0.0-20180606-828",
+    "show_knowledge_page": 0,
+    "tag_max_num": 30,
+    "third_pwd_modify_url": "",
+    "vcode_login_config": {
+        "isenable": false,
+        "passwderrcnt": 0
+    },
+    "windows_ad_sso": {
+        "is_enabled": false
+    }
+}

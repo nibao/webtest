@@ -1,0 +1,10 @@
+:local .docsgrid {
+    & .name {
+        display: inline-block;
+
+        & .docname {
+            display: inline-block;
+            margin-left: .5em;
+        }
+    }
+}

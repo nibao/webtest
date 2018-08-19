@@ -1,0 +1,70 @@
+.side-bar {
+    position: relative;
+    border-right: 1px solid #e0e0e0;
+    padding-top: 15px;
+    box-sizing: border-box;
+    height: 100%;
+    background: #f9f9f9;
+    & .nav {
+        position: absolute;
+        left: 0;
+        right: -1px;
+        & .nav-item {
+            position: relative;
+
+            & .nav-link {
+                display: block;
+                box-sizing: border-box;
+                border-top: 1px solid;
+                border-bottom: 1px solid;
+                border-left: 4px solid;
+                border-color: transparent;
+                height: 45px;
+                line-height: 45px;
+                font-size: 14px;
+                color: #868686;
+                text-decoration: none;
+                cursor: pointer;
+                &:hover {
+                    background-color: #ececf3;
+                }
+                &.active {
+                    border-left: 4px solid;
+                    border-top: 1px solid #eee;
+                    border-bottom: 1px solid #eee;
+                    background-color: #fff;
+                    color: #000;
+                    &:hover {
+                        background-color: #fff;
+                    }
+                    & .icon {
+                        color: #000;
+                    }
+                }
+                & .icon {
+                    margin: 0 10px 0 15px;
+                    color: #868686;
+                }
+            }
+
+            & .fallbacked{
+                color: #505050;
+
+                &.active {
+                    color: #505050;
+                }
+            }
+        }
+
+        & .number-icon{
+            position: absolute;
+            top:15px;
+            right: 4px;
+        }
+    }
+    & .clients-download{
+        width:100%;
+        position: absolute;
+        bottom:0;
+    }
+}

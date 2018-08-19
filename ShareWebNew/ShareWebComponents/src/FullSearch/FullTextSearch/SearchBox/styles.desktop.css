@@ -1,0 +1,57 @@
+@import '../../../../libs/root.css';
+
+
+.search-bar{
+    position:relative;
+    width: 100%;
+    height: 60px;
+    background: #f6f7fc;
+    text-align: center;
+
+    & .search-container{
+        width: 100%;
+        padding-top: 15px;
+
+        & .search-box{
+            height: 30px;
+            vertical-align: middle;
+        }
+
+        & .search-btn{
+
+            vertical-align: middle; 
+            background-color: #d70000;
+            color: #fff;
+            margin-left: 10px;
+            
+            &:hover{
+                background-color: #e82828;
+            }
+
+            &:active{
+                background-color: #b71b1c;
+            }
+        }
+
+        & .reset-btn{
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+
+        & .warning{
+            position: absolute;
+            margin-left: 20px;
+            line-height: 30px;
+            color: #d70000;
+        }
+     
+        
+
+
+        
+    }
+
+
+   
+}
+

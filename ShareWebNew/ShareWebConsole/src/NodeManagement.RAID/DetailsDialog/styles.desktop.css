@@ -1,0 +1,40 @@
+@import '../../../libs/root.css';
+
+.wrapper{
+    height: 600px;
+    overflow: auto;
+    background: var(--background-light);
+
+    & .table {
+        margin: var(--layout-spacing-large);
+        table-layout: fixed;
+        border-collapse: collapse;
+       
+        & .heads {
+            border: 1px solid #e5e5e5;
+            background-color: #f7f7f7;
+            background-image: linear-gradient(#fafafa, #f3f3f3);
+        }
+
+        & .cell {
+            width: 50%;
+            height: 24px;
+            padding: 4px 10px;
+            text-align: left;
+            vertical-align: middle;
+        }
+       
+        & .rows{     
+            border: 1px solid #e5e5e5;
+            border-width: 0 1px 1px 1px;
+
+            &:nth-child(odd){
+                background-color: #fbfbfb;
+            }
+        }
+
+        & .heads .cell {
+            color: #555;
+        }
+    }
+}

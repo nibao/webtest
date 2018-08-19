@@ -1,0 +1,63 @@
+.box-display {
+    &[disabled] {
+        @apply --disabled;
+    }
+
+    display: inline-block;
+    width: 118px;
+    @apply --input-border;
+    & .input-size {
+        margin-right: 5px;
+    }
+
+    & .set-btn{
+        position:absolute;
+        top: 0px;
+        right: 2px;
+    }
+    & .status {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 6px 5px 0 0;
+    }
+    & .validate-message {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        left: 100%;
+        margin: 3px 0 0 3px;
+        white-space: nowrap;
+    }
+
+    &:hover {
+        & .locator {
+            display: inline-block;
+        }
+    }
+    .tip-wrap{
+        position: absolute;
+    }
+    .right{
+        right:5px;
+        top:5px;
+    }
+    .top{
+        left:0;
+        margin-left:-16px;
+        top:-30px;
+    }
+
+    & .locator {
+        display: inline-block;
+        margin-top: -4px;
+    }
+
+    & .mouse-status {
+        cursor: pointer !important;
+    }
+}
+
+.validate-fail {
+    background-color: #ffffee;
+}

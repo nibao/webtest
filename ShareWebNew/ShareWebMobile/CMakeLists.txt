@@ -1,0 +1,34 @@
+include ($ENV{CMAKE}/common/prep.cmake)
+
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+CMAKE_POLICY(VERSION 2.8)
+
+PROJECT(ShareWebMobile)
+
+INSTALL(
+    DIRECTORY 
+        dist/libs
+        dist/styles
+        dist/scripts
+    DESTINATION 
+        app/ShareWebMobile
+    FILE_PERMISSIONS 
+        OWNER_EXECUTE OWNER_WRITE OWNER_READ 
+        GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ 
+    DIRECTORY_PERMISSIONS 
+        OWNER_EXECUTE OWNER_WRITE OWNER_READ 
+        GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ 
+    PATTERN "*.map" EXCLUDE 
+)
+
+INSTALL(
+    FILES
+        dist/index.html
+    DESTINATION
+        app/ShareWebMobile
+    PERMISSIONS
+        OWNER_EXECUTE OWNER_WRITE OWNER_READ 
+        GROUP_EXECUTE GROUP_READ WORLD_EXECUTE WORLD_READ 
+)
+
+include(package)

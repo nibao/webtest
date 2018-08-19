@@ -1,0 +1,17 @@
+.drawer {
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+
+    & .selector222 {
+        width: 100vw;
+        height: 100vh;
+        overflow-y: hidden;
+        position: fixed;
+        z-index: 2;
+    }
+
+    & .selector {
+        height: 100vh;
+    }
+}

@@ -1,0 +1,26 @@
+@import '../../libs/root.css';
+
+.progressbar {
+    position: relative;
+    height: 30px;
+    border: 1px solid var(--anyshare-grey-04);
+    border-radius: var(--control-border-radius);
+    box-sizing: border-box;
+    text-align: center;
+
+    & .text {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        bottom: 0;
+        display: inline-block;
+        padding-top: 8px;
+        color: var(--font-color-regular);
+    }
+
+    & .percentage {
+        height: 100%;
+        border-radius: 3px;
+        background-color: var(--progress-background-color);
+    }
+}

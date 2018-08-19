@@ -1,0 +1,8 @@
+.container{
+    width: 100vw;
+    overflow: hidden;
+    
+    & .list{
+        user-select: none;
+    }
+}

@@ -1,0 +1,40 @@
+.container {
+
+    & .head {
+        padding: 5px 0px;
+    }
+
+    & .form-data {
+        margin-top: 10px;
+
+        & .left-label {
+            width: 80px;
+            display: inline-block;
+        }
+    }
+
+    & .recycle-size {
+        padding-left: 15px;
+        display: inline-block;
+    }
+}
+
+.query-container {
+    margin: 0 auto;
+}
+
+.loading-container {
+
+    & .loading-box {
+        padding: 20px 30px;
+        display: inline-block;
+        
+        & .loading-message {
+            height: 30px;
+            line-height: 30px;
+            font-size: 15px;
+            display: inline-block;
+            padding-left: 15px;
+        }
+    }
+}

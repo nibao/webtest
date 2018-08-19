@@ -1,0 +1,38 @@
+@import '../../libs/root.css';
+
+:local .container {
+    & .form-data {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 5px 3px;
+    }
+    & .input-space {
+        margin-left: 10px;
+    }
+    & .download-limit {
+        padding: 5px;
+        &.disabled {
+            @apply --disabled;
+        }
+        & .info-header {
+            padding: 10px 0;
+        }
+        & .field_left {
+            width: 320px;
+            padding: 5px 3px;
+            vertical-align: middle;
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        & .sub-title {
+            padding-left: 14px;
+            margin: 5px 0px 0px 5px;
+            color: #999;
+            & .link {
+                color: #0066CC;
+            }
+        }
+    }
+}

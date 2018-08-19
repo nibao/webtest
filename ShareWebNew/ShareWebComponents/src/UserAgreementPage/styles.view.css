@@ -1,0 +1,24 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    background: #3c3c3c;
+
+    & .middle {
+        width: 50%;
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto;
+        background: #fff;
+    }
+    & .inner {
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        padding: 30px;
+        line-height: 1.5;
+    }
+}

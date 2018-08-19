@@ -1,0 +1,13 @@
+@import '../../libs/root.css';
+
+.menu {
+    border: 1px solid #e0e0e0;
+    border-radius: var(--control-border-radius);
+    box-shadow: var(--control-shadow__hover);
+    background-color: var(--control-background-color);
+    overflow-y: auto;
+
+    &.box-sizing-border-box {
+        box-sizing: border-box;
+    }
+}

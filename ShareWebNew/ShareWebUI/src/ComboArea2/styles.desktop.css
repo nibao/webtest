@@ -1,0 +1,25 @@
+.comboarea {
+    position: relative;
+    min-height: 35px;
+    overflow: auto;
+
+    & .chip-wrap {
+        display: inline-block;
+        margin: 1px;
+        vertical-align: middle;
+        white-space: nowrap;
+        margin-left: 5px;
+
+        & .flextextbox{
+            vertical-align: middle;
+        }
+    }
+
+    &:hover{
+        cursor: text;
+    }
+
+    & .box-sizing-border-box {
+        box-sizing: border-box;
+    }
+}

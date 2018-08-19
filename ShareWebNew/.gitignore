@@ -1,0 +1,8 @@
+
+/ShareWebDemo
+node_modules
+/__MACOSX
+/thrift
+yarn-error.log
+.vscode
+testResult

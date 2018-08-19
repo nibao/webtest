@@ -1,0 +1,39 @@
+@import '../../../libs/root.css';
+
+.container{
+    height: 100%;
+    width: 100%;
+    background: var(--preview-background-dark);
+    color: var(--preview-background-dark-font-color);
+
+    & .warning-icon{
+        margin-bottom: 10px;
+    }
+
+    & .message{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    & .text-link{
+        color: var(--font-color-link);
+        margin-left: 10px;
+
+        &:hover {
+            color: var(--font-color-link__hover);
+        }
+
+        &:active {
+            color: var(--font-color-link__active);
+        }
+    }
+
+    & .text {
+        margin-bottom: 24px;
+    }
+    
+    & .or-text {
+        margin-left: 10px;
+    }
+}
+

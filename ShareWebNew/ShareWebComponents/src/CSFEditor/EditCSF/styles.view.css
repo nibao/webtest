@@ -1,0 +1,13 @@
+.content {
+    margin-bottom: 10px;
+    line-height: 18px;
+    width: 360px;
+}
+
+.hide-option {
+    display:none;
+}
+
+.select-csf {
+    width: 100px !important;
+}

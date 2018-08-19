@@ -1,0 +1,13 @@
+.add {
+    display: table;
+    margin-top: 20px;
+    & .add-size {
+        width: 450px;
+    }
+}
+
+& .add-test {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px;
+}

@@ -1,0 +1,59 @@
+ .item {
+     margin-bottom: 10px;
+     & .form {}
+     & .form2 {
+         padding-top: 10px;
+         line-height: normal;
+     }
+     & .bold {
+         font-weight: bold;
+     }
+     & .pad {
+         height: 1px;
+         margin: 16px 0px;
+         background-color: #e4e4e4;
+         overflow: hidden;
+     }
+     & .left {
+         width: 140px;
+         display: inline-block;
+     }
+     & .right {
+         float: right;
+         & .cell {
+             width: 24px;
+             height: 24px;
+             cursor: pointer;
+             user-select: none;
+             text-align: center;
+             vertical-align: middle;
+             border: 1px solid transparent;
+             border-radius: 2px;
+             position: relative;
+             display: inline-block;
+             &:hover {
+                 background: #efefef;
+                 border-color: #d1d1d1;
+             }
+             &:active {
+                 background: #dadada;
+                 border-color: #e0e0e0;
+             }
+         }
+         & .inner {
+             position: absolute;
+             top: 0;
+             right: 0;
+             bottom: 0;
+             left: 0;
+             padding: 5px 0;
+             & .ui-icon {
+                 cursor: pointer;
+             }
+             &.disabled {
+                 @apply --disabled;
+                 cursor: default;
+             }
+         }
+     }
+ }

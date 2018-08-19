@@ -1,0 +1,38 @@
+.list {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+    line-height: 50px;
+    box-sizing: border-box;
+
+    .checkbox {
+        display: inline-block;
+        position: absolute;
+        padding: 0 15px 0 10px;
+        left: 2px;
+    }
+
+    .icon {
+        position: absolute;
+        display: inline-block;
+        line-height: 50px;
+        padding: 0 5px;
+        right: 3px;
+        font-size: 22px;
+        color: #aaa;
+    }
+
+    .children {
+        display: inline-block;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+
+    .children-left {
+        padding-left: 47px;
+    }
+
+    .children-right {
+        padding-right: 26px;
+    }
+}

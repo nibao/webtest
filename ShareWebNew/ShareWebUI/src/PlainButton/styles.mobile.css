@@ -1,0 +1,43 @@
+:local .button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    border: none;
+    background-color: #fff;
+    font-size: .5rem;
+    box-shadow: none;
+    cursor: pointer;
+    color: #22b9ff;
+
+    &:hover {
+    }
+
+    &:active {
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &[disabled] {
+        background: #efefef;
+        opacity: 0.6;
+        cursor: default;
+    }
+
+    &[type="submit"] {
+
+        &:hover {
+        }
+
+        &:active {
+        }
+
+        &[disabled] {
+            background: #efefef;
+            opacity: 0.6;
+            cursor: default;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    display: inline-block;
+    padding: 1px;
+    border: 1px solid #CCC;
+    background: #EFEFEF;
+    border-radius: 0.3rem;
+
+    & .wrap{
+        display: table;
+        table-layout: fixed;
+         width: 100%;
+        height: 8px;
+    }
+    
+}

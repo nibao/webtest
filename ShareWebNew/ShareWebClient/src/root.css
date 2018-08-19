@@ -1,0 +1,42 @@
+@import '../libs/root.css';
+
+html {
+    font-size: var(--font-size-regular);
+    font-family: var(--font-family);
+    -webkit-text-size-adjust: 100%;
+    user-select: none;
+}
+
+body {
+    font-size: var(--font-size-regular);
+}
+
+input[type="text"], textarea {
+    user-select: text;
+}
+
+/** webkit 内核浏览器滚动条样式 */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 15px;
+    background: rgba(0, 0, 0, 0.4);
+    &:hover{
+        background: rgba(0, 0, 0, 0.3);
+    }
+    &:active{
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/** IE 去掉input默认的叉叉 */ 
+::-ms-clear { 
+    display: none; 
+}

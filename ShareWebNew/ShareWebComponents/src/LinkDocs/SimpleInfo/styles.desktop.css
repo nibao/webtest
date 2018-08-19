@@ -1,0 +1,52 @@
+@import '../../../libs/root.css';
+
+.simple-info {
+    width: 100%;
+    height: 85%;
+}
+
+.thumbnail-area {
+    cursor: pointer;
+}
+
+.name-text {
+    max-width: 400px;
+    line-height: 1.5;
+    color: var(--font-color-strong);
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    &:hover {
+        color: var(--font-color-string-hover);
+    }
+
+    &:active {
+        color: var(--font-color-string-active);
+    }
+}
+
+.size-text {
+    margin-bottom: 20px;
+    color: var(--font-color-secondary);
+}
+
+.line-area {
+    line-height: 1.5;
+
+    & .download-btn {
+        margin: 0 10px;
+    }
+
+    & .open-btn-only {
+        width: 180px;
+    }
+
+    & .distance {
+        margin-right: 20px;
+    }
+
+    & .file-icon {
+        margin-right: 4px;
+    }
+}

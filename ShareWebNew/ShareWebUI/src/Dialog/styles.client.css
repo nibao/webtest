@@ -1,0 +1,9 @@
+.container {
+    position: relative;
+    min-width: 400px;
+    z-index: 20;
+
+    &.fixed {
+        position: fixed;
+    }
+}

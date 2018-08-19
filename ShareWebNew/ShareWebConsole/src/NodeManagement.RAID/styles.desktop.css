@@ -1,0 +1,31 @@
+ @import '../../libs/root.css';
+
+.wrapper{
+    margin-top: var(--layout-spacing-medium);
+
+    & .label-style{
+        margin: 0 var(--layout-spacing-small) 0 var(--layout-spacing-large);
+        background-color: var(--control-background-color);
+        border-bottom: 1px solid #efefef;
+        font-size: var(--font-size-subtitle);
+        color: var(--font-color-regular);
+
+        &:active{
+            background: var(--control-background-color);
+        }
+        &:hover{
+            background: var(--control-background-color);
+        }
+    }
+}
+
+.no-raid{
+    margin-top: 200px;
+    text-align: center;
+    font-size: var(--font-size-subtitle);
+    color: var(--font-color-secondary);
+
+    & .p{
+        margin-top: var(--layout-spacing-medium);
+    }
+}

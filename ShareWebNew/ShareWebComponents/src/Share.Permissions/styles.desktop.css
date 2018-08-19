@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+
+    & .data-grid {
+        margin: 10px 0;
+        outline: 0;
+        font-size: 13px;
+        text-align: left;
+        & .new-add {
+            font-weight: bold;
+        }
+        & .text {
+            padding: 10px 0;
+            line-height: 16px;
+        }
+        & td {
+            vertical-align: middle;
+        }
+
+        & .delete {
+            margin-left: 14px;
+        }
+    }
+
+    & .no-permission {
+        width: 100%;
+        position: absolute;
+        top: 160px;
+        text-align: center;
+        opacity: 0.5;
+        filter: alpha(opacity=50); 
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}

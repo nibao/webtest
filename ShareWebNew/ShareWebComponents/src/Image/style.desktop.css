@@ -1,0 +1,58 @@
+﻿:local .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #353535;
+    
+    & .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 45px;
+        line-height: 45px;
+        border-bottom: 1px solid #585858;
+        
+        & .image-name {
+            font-size: 14px;
+            font-weight: bold;
+            text-indent: 1em;
+            color: #fff;
+        }
+        
+        & .download-btn {
+            position: absolute;
+            top: 0;
+            right: 10px;
+            vertical-align: top;
+        }
+    }
+    
+    & .body {
+        position: absolute;
+        top: 0;
+        bottom: 100px;
+        left: 0;
+        right: 0;
+
+        & .padding {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            overflow: auto;
+        }
+    }
+    
+    & .footer {
+        height: 100px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #353535;
+        text-align: center;
+    }
+}

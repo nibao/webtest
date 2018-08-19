@@ -1,0 +1,54 @@
+.close{
+    position: absolute;
+    top: -0.4rem;
+    right: -0.4rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: rgba(255,255,255, 0.6);
+    border-radius: 0.6rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+
+.title{
+     position: relative;
+     padding-left: 1.2rem;
+     line-height: 1.2rem;
+     & .thumbnail{
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 1.2rem;
+         height: 1.2rem;
+         text-align: center;
+         vertical-align: middle;
+     }
+     & .name{
+         overflow: hidden;
+         text-overflow: ellipsis;
+         white-space: nowrap;
+     }
+}
+.progress{
+    height: 0.3rem;
+    border: 1px solid #000;
+    margin-top: 0.3rem;
+    .percentage{
+        height: 100%;
+        background: #009e0f;
+    }
+}
+.status{
+    margin-top: 0.3rem;
+    &:after{
+        display: inline-block;
+        content: '';
+        clear: both;
+    }
+    .text{
+        float: left;
+    }
+    .size{
+        float: right;
+    }
+}

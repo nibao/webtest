@@ -1,0 +1,19 @@
+:local .textbox {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+
+    & .padding {
+        padding: .25rem .5rem;
+        border: 1px solid #d0d0d0;
+        border-radius: .25rem;
+
+        &[disabled] {
+            background-color: #f0f0f0;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+} 

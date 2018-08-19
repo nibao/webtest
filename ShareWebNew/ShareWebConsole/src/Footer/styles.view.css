@@ -1,0 +1,11 @@
+.message {
+    line-height: 1.5;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+
+    & .item-space {
+        margin: 0 0.5em;
+    }
+}

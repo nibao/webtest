@@ -1,0 +1,6 @@
+:local .pageContainer {
+    margin: 5px auto;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 3px 3px #D0D0D0;
+    user-select: none;
+}

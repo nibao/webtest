@@ -1,0 +1,82 @@
+@import '../../../libs/root.css';
+.container {
+    padding-left: 20px;
+    user-select: none;
+    & .wrapper {
+        height: 30px;
+        border-bottom: 1px solid #f4f4f4;
+        padding: 7px 0;
+        & .button {
+            margin-left: 10px;
+        }
+    }
+    & .view-actions {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        line-height: 44px;
+    }
+    & .upload {
+        display: none;
+        position: relative;
+        margin-left: 10px;
+        height: 30px;
+        line-height: 30px;
+        &.show {
+            display: inline-block;
+        }
+
+        & .upload-drop-arrow {
+            margin-left: 10px;
+        }
+
+        & .upload-button {
+            border: 1px solid #bdbdbd;
+            padding: 0 10px;
+            height: 28px;
+            line-height: 30px;
+            border-radius: 3px;
+            background-color: #fafafa;
+            box-shadow: none;
+            text-align: center;
+            background-color: var(--background-dark);
+            color: var(--font-color-light);
+            &:hover {
+                background-color: var(--background-dark__hover);
+                border-color: var(--background-dark__hover);
+            }
+            &:active {
+                background-color: var(--background-dark__active);
+                border-color: var(--background-dark__active);
+            }
+            & .upload-label {
+                margin: 0 10px;
+            }
+        }
+        & .upload-menu {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            border: 1px solid #e0e0e0;
+            width: 130px;
+            box-shadow: 0 0 8px 0 #e0e0e0;
+            border-radius: 3px;
+            background: #fff;
+            white-space: nowrap;
+            z-index: 1;
+            & .upload-menu-button {
+                display: block;
+                &:hover {
+                    background: #f3f3fa;
+                }
+                & .upload-icon {
+                    margin: 0 5px;
+                }
+            }
+        }
+        &:hover .upload-menu {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+      @import '../../../libs/root.css';
+
+   
+   .item{
+        margin:.25rem;
+        border-radius: .25rem;
+        background: var(--control-background-color);
+        font-size:0.43rem;
+        text-align:center;
+        word-break:break-all;
+    }
+
+   

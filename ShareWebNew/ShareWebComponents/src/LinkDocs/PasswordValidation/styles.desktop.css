@@ -1,0 +1,26 @@
+@import '../../../libs/root.css';
+
+.text {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ok-btn {
+    margin-top: 25px;
+    width: 400px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.text-box {
+    vertical-align: middle;
+    line-height: 25px;
+}
+
+.error-message{
+    margin-top: 10px;
+    height: 20px;
+    color: var(--font-color-critical);
+    text-align: left;
+}

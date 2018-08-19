@@ -1,0 +1,45 @@
+.container {
+    box-sizing: border-box;
+    height: 40px;
+    margin: 0 auto;
+    padding: 5px 0 5px 10px;
+    border-radius: 2px;
+
+    & .icon {
+        box-sizing: border-box;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        border-radius: 2px;
+        line-height: 30px;
+        text-align: center;
+        color: #bdbdbd;
+
+        &:hover {
+            background: #5c5c5c;
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+        }
+
+        &:active {
+            background: #484848;
+            background: rgba(255,255,255,0.1);
+            color: #bdbdbd;
+        }
+    }
+}
+
+.title-style {
+    box-shadow: none;
+}
+
+.black-background {
+    background: #262626;
+    background: rgba(43,43,43,0.9);
+}
+
+.white-background {
+    background: #333333;
+    background: rgba(0,0,0,0.8);
+}
+

@@ -1,0 +1,61 @@
+@import '../../../libs/root.css';
+
+.storage-add{
+    padding: 50px;
+
+    & .storage-add-container{
+        height: 210px;
+        overflow-y: auto;
+
+        & .loading{
+            padding-top: 80px;
+        }
+
+        & .storage-add-content{
+            width: 99%;
+
+            & .storage-add-body{
+                display: block;
+                line-height: 50px;
+                margin-bottom: 20px;
+            }
+
+            
+        }
+        
+    }
+
+    & .storage-add-foot{
+        display: inline-block;
+
+        & .foot-content{
+            vertical-align: middle;
+        }
+    }
+    
+
+    & .font-bold{
+        font-weight: bold;
+        line-height: 50px;
+    }
+}
+
+
+.font-bold{
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.font-color-red{
+    display: inline-block;
+    color: var(--anyshare-red-05);
+    vertical-align: middle;
+}
+
+.font-color-green{
+    display: inline-block;
+    color: var(--anyshare-green01);
+    vertical-align: middle;
+
+}

@@ -1,0 +1,19 @@
+@import '../../libs/root.css';
+
+.container {
+    position: relative;
+    line-height: var(--font-size-regular);
+
+    & .padding {
+        padding: 7px var(--layout-spacing-medium);
+        background: #f9f9f9;
+        border-radius: 0 0 3px 3px;
+        text-align: right;
+        cursor: default;
+        border-top: 1px solid #d0d0d0;
+
+        &[role="drag-area"] {
+            cursor: move;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+@import '../../../libs/root.css';
+
+.drawer{
+    background: var(--anyshare-grey-03);
+    & .info{
+        line-height: 1.6rem;
+        border-bottom: 1px solid var(--anyshare-grey-04);
+        padding: 0.1rem 0.1rem 0.1rem 2rem;
+        & .thumbnail{
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 0 15px;
+        }
+        & .name{
+            font-size: 0.5rem;
+            line-height: 0.8rem;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        & .metas{
+            font-size: 0.4rem;
+            line-height: 0.6rem;
+            color: var(--font-color-regular);
+
+            & .meta{
+                margin-left: 0.2rem;
+                &:first-child{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    & .infos {
+        padding: 0 0 0 0.5rem;
+        border-bottom: 1px solid var(--anyshare-grey-04);
+        line-height: 1.6rem;
+    }
+
+    & .grid{
+        & .item{
+            padding: 0.2rem 0;
+            text-align: center;
+            font-size: 0.4rem;
+            height: 70px;
+
+            & .icon{
+                display: inline-block;
+                margin-bottom: 4px;
+                padding: 0.3rem;
+                background: #fff;
+                border-radius: 0.2rem;
+            }
+
+            & .disabled {
+                opacity: 0.3;
+            }
+        }
+    }
+
+    & .close-button{
+        display: block;
+        height: 1.4rem;
+        line-height: 1.4rem;
+        background: var(--anyshare-grey-02);
+        line-height: 45px;
+        height: 45px;
+        color: #000;
+        &:hover,
+        &:active,
+        &:focus,
+        {
+            color: #000;
+        }
+    }
+}

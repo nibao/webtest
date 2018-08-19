@@ -1,0 +1,19 @@
+.current{
+    cursor: pointer;
+    padding-left: 8px;
+    padding-right: 5px;
+    & .help{
+        padding:0 10px;
+        max-width: 80px;
+        display:inline-block;
+        vertical-align:top;
+    }
+    & .help-icon{
+        vertical-align:top;
+    }
+} 
+.help-item{
+    padding-left: 10px!important;
+    min-width: 80px!important;
+    text-align: center;
+}

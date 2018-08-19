@@ -1,0 +1,10 @@
+.container {
+    padding: .25rem;
+    border-top: 1px solid #d0d0d0;
+    color: #333;
+    text-align: left;
+
+    &:first {
+        border-top: none;
+    }
+}

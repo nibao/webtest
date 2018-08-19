@@ -1,0 +1,35 @@
+:local .container{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    line-height: 30px;
+    & .icon-button{
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    & .time{
+        display: inline-block;
+        width: 140px;
+        vertical-align: middle;
+    }
+    & .left{
+        position: absolute;
+        left: 0;
+    }
+    & .center{
+        position: absolute;
+        left: 170px;
+        right: 160px;
+    }
+    & .right{
+        position: absolute;
+        right: 0;
+    }
+}

@@ -1,0 +1,17 @@
+@import '../../../libs/root.css';
+
+.container{
+    height: 100%;
+    width: 100%;
+    background: var(--preview-background-dark);
+    color: var(--preview-background-dark-font-color);
+
+    & .warning-icon{
+        margin-bottom: 20px;
+    }
+
+    & .message{
+        font-size: 16px;
+    }
+}
+

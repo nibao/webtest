@@ -1,0 +1,10 @@
+:local .node {
+    & .icon {
+        margin-right: .25em;
+        vertical-align: middle;
+    }
+
+    & .name {
+        vertical-align: middle;
+    }
+}

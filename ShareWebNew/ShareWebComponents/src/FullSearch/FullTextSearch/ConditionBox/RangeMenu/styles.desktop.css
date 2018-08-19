@@ -1,0 +1,106 @@
+@import '../../../../../libs/root.css';
+
+.range-menu{
+
+    & .attr-title{
+        color: #868686;
+    }
+
+    & .search-button-container{
+        display: inline-block;
+        height: 90%;
+
+        & .range-menu-btn{
+            border: 0;
+
+            & .expand-icon{
+                padding-left: 5px;
+                cursor: pointer;
+                color: var(--anyshare-grey-07);
+            }
+
+            &:hover {
+                background-color: var(--anyshare-grey-03);
+            }
+
+            &:active {
+                background-color: var(--anyshare-grey-04);
+            }
+        
+        }
+
+        
+
+        & .clicked{
+            background-color: var(--anyshare-grey-03);
+        }
+    }
+}
+
+.condition-range-menu{
+    padding: 10px;
+    
+    & .inline-rangebox{
+        display: inline-block;
+        vertical-align: middle;
+        
+        & .short-line-icon{
+            display: inline-block;
+        }
+
+        & .range-input{
+            display: inline-block;
+            width: 70px;
+            height: 23px;
+            border: 1px solid #d3d8db;
+            border-radius: 3px;
+            letter-spacing: 0;
+            outline: none;
+            padding-left: 5px;
+            overflow: hidden;
+            vertical-align: middle;
+
+            &:focus{
+                border: 1px solid var(--control-border-color__focus);
+                box-shadow: var(--control-shadow__focus);
+            }
+
+        }
+
+        & .range-type-button{
+            display: inline-block;
+            width: 60px;
+            height: 27px;
+            padding: 0 10px;
+            border: 1px solid #d3d8db;
+            border-radius: 3px;
+            line-height: 27px;
+            min-width: 0px !important;
+            vertical-align: middle;
+            margin-left: 5px;
+
+            & .button-text-type{
+                display: inline-block;
+                width: 20px;
+            }
+
+            & .expand-icon{
+                padding-left: 5px;
+                color: var(--anyshare-grey-07);
+            }
+        }
+
+
+    }
+
+}
+
+.condition-rangetype-menu{
+    width: 60px;
+
+    & .rangetype-menu-item{
+        min-width: 0px !important;
+        padding-left: 12px;
+        
+    }
+}

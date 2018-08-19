@@ -1,0 +1,24 @@
+.rate-config {
+    height: 160px;
+    width: 410px;
+    padding: 0 5px;
+}
+
+.text {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.limit-item {
+    margin: 10px 0;
+
+    & .rate-input {
+        width: 80px;
+        margin: 0 10px;
+    }
+}
+
+.warning {
+    display: inline-block;
+    color: #ec0000;
+}

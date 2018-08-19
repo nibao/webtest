@@ -1,0 +1,49 @@
+:local .container {
+    display: inline-block;
+    position: relative;
+
+    & .link {
+        position: relative;
+        display: inline-block;
+        min-width: 3rem;
+        height: 1rem;
+        line-height: 1rem;
+        padding: 0 1rem 0 .5rem;
+        border: 1px solid #d0d0d0;
+        border-radius: .2rem;
+        text-decoration: none;
+        color: #333;
+        outline: none;
+
+        &[disabled] {
+            background-color: #f0f0f0;
+            cursor: default;
+            
+            & .icon {
+                opacity: 0.5;
+            }
+        }
+
+        & .icon {
+            position: absolute;
+            top: .25rem;
+            right: .25rem;
+            line-height: normal;
+        }
+    }
+
+    & .picker {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+
+        &.collapsed {
+            display: none;
+        }
+    }
+
+    & .pickerWarpper {
+        display: block;
+    }
+}

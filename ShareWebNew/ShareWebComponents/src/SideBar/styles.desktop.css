@@ -1,0 +1,45 @@
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-left: 1px solid #e4e4e4;
+    border-top: 4px solid #d70000;
+    border-bottom-left-radius: 0px;
+    font-size: 10px;
+    color: #505050;
+    user-select: none;
+
+    & .top {
+        height: 75px;
+        background: #f9f9f9;
+        border-bottom: 1px solid #e4e4e4;
+    }
+
+    & .block {
+        margin: 10px 0;
+
+        &.padding {
+            padding: 0 15px;
+        }
+
+        &.bottom-block {
+            position: absolute;
+            top: 230px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    }
+
+    .offline {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #fefefe;
+        opacity: .5;
+    }
+}

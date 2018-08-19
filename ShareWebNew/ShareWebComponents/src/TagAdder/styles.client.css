@@ -1,0 +1,46 @@
+.title {
+    margin-bottom: 20px;
+}
+
+.edit-tag-dialog {
+
+    & .btn {
+        margin-left: 10px;
+        vertical-align: top;
+        min-width: 58px;
+        width: 80px;
+    }
+
+    & .item {
+        line-height: normal;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    & .warning {
+        color: #ac000e;
+        max-width: 364px;
+        height: 22px;
+    }
+
+    & .tags {
+        width: 364px;
+        height: 144px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-bottom: 4px;
+
+        & .chip {
+            display: inline-block;
+            margin: 5px 1px 1px 1px;
+            height: 30px;
+            white-space: nowrap;
+        }
+    }
+
+    & .border {
+        border: solid 1px #ddd;
+    }
+}

@@ -1,0 +1,39 @@
+@import '../../../libs/root.css';
+
+.container{
+    position: relative;
+    user-select: none;
+    color: var(--font-color-regular);
+
+    & .title{
+        display: inline-block;
+        line-height: 55px;
+        margin-left: var(--layout-spacing-small);
+    }
+
+    & .search-box{
+        display: inline-block;
+        background: var(--control-background-color);
+        float: right;
+        z-index: 2;
+        line-height: 45px;
+    }
+
+    & .type-selection{
+        position: relative;
+        float: right;
+        margin-right:0;
+        margin-top: 12px;
+        height: var(--layout-spacing-large);
+        border: 0;
+
+        & .type-text{
+            padding-right: var(--layout-spacing-small);
+        }
+
+        &:hover{
+            background-color: var(--background-light);
+        }
+    }
+}
+    

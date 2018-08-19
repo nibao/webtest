@@ -1,0 +1,80 @@
+:local .container {
+    height: 100%;
+
+    & .navigator {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: .5rem 0;
+        color: #f0f0f0;
+    }
+
+    & .main {
+        position: absolute;
+        top: 1.5rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+
+        & .docsgrid {
+            & .record {
+                position: relative;
+                height: 100%;
+
+                & .icon {
+                    width: 1rem;
+                    padding-top: 0.2rem;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                }
+
+                & .docinfo {
+                    padding-top: 0.2rem;
+                    padding-left: .5rem;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    left: 1rem;
+                    right: 1rem;
+
+                    &.dir {
+                        padding-top: 0.5rem;
+                    }
+
+                    & .name {
+                        display: block;
+                        padding: 0 0 0.1rem 0;
+                        color: #333;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+
+                        & .enter {
+                            background-size: contain;
+                        }
+                    }
+
+                    & .meta {
+                        font-size: .25rem;
+                        color: #585858;
+                    }
+                }
+
+                & .action {
+                    width: 1rem;
+                    padding-top: 0.5rem;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

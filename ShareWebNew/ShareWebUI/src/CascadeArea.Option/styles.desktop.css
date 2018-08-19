@@ -1,0 +1,48 @@
+@import '../../libs/root.css';
+
+.container {
+    width: 90px;
+
+    & .option {
+        position: relative;
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        padding: 0 10px;
+        background-color: #fff;
+        white-space: nowrap;
+        cursor: pointer;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #e2e2f2;
+        }
+
+        &.selected {
+            background-color: #e2e2f2;
+            color: var(--anyshare-main-red);
+        }
+
+        & .text {
+            display: block;
+            padding: 0 16px 0 10px;
+        }
+
+        & .icon {
+            position: absolute;
+            right: 4px;
+        }
+    }
+
+    & .children {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 90px;
+        border: 1px solid #d0d0d0;
+
+        &.visible {
+            display: block;
+        }
+    }
+}

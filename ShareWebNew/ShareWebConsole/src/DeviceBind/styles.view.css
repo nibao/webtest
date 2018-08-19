@@ -1,0 +1,56 @@
+:local .container {
+    & .delete-icon {
+        margin-left: 15px;
+        line-height: 26px;
+        overflow: hidden;
+    }
+    & .opacity {
+        opacity: 0.3;
+    }
+    & .fl {
+        float: left;
+    }
+    & .fr {
+        float: right;
+    }
+    & .search-box {
+        margin-left: 10px;
+    }
+    & .info-header {
+        margin: 20px 0 10px;
+    }
+    & .tip {
+        margin-left: 10px;
+        color: #999;
+    }
+    & .user-container {
+        width: 50%;
+    }
+    & .device-container {
+        width: 50%;
+    }
+    & .user-wrapper {
+        margin-right: 10px;
+    }
+    & .device-wrapper {
+        margin-left: 10px;
+    }
+    & .info-header {
+        margin: 20px 0 10px;
+    }
+    & .data-grid {
+        border: 1px solid #e5e5e5;
+        & .displayName {
+            padding: 1px 0;
+            width: 100%;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+    }
+    & .bind-status {
+        color: #4a943f;
+    }
+    & .nobind-status {
+        color: #999;
+    }
+}

@@ -1,0 +1,27 @@
+:local .container {
+    & .tree-box {
+        width: 400px;
+        height: 300px;
+        overflow: auto;
+   }
+
+   & .loading-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        & .loading-box {
+            padding: 20px 30px;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+            display: inline-block;
+            background: #fff;
+
+            & .loading-message {
+                margin-top: 5px;
+                opacity: 0.5;
+                filter: alpha(opacity=50);
+            }
+        }
+    }
+}

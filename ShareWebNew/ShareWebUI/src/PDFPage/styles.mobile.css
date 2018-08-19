@@ -1,0 +1,9 @@
+:local .pageContainer {
+    margin: .1rem auto;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 3px 3px #D0D0D0;
+    user-select: none;
+    &:first-child {
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "lodash": "~3",
+        "thrift": "^0.10.0"
+    }
+}

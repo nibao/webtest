@@ -1,0 +1,47 @@
+@import '../../libs/root.css';
+
+:local .container {
+    height: 537px;
+    & .wrap{
+        position: relative;
+        & .check-box{
+            position: absolute;
+            left: 0;
+            top: 7px;
+        }
+        & .text-input{
+            display: inline-block;
+            padding-left: 20px;
+    
+            & .text-box {
+                display: inline-block;
+                margin: 0 5px 0 5px;
+            }
+            
+            &.disabled {
+                @apply --disabled;
+            }
+        }
+    }
+    
+
+    & .set-limit {
+        padding: 5px;
+        
+        & .sub-title {
+            padding-left: 14px;
+            margin: 5px 0px 0px 5px;
+            color: #999;
+            & .link {
+                color: #0066CC;
+            }
+        }
+    }
+    & .footer {
+        margin: 10px 0;
+
+        & .button-wrapper {
+            margin-left: 10px;
+        }
+    }
+}

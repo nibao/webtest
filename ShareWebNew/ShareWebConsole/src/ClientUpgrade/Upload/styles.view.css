@@ -1,0 +1,117 @@
+@import '../../../libs/root.css';
+
+.container {
+
+    & .icon-area {
+        display: inline-block;
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+
+        & .message {
+            margin-top: 20px;
+            line-height: 1.2;
+        }
+
+        & .ex-area {
+            margin-top: 10px;
+
+            & .second-message {
+                display: inline-block;
+                line-height: 1.2;
+            }
+
+            & .tip-icon {
+                display: inline-block;
+            }
+
+            & .icon-margin {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    & .right-area {
+        display: inline-block;
+        margin-left: 20px;
+        vertical-align: top;
+
+        & .form {
+            display: inline-block;
+            box-sizing: border-box;
+        }
+
+        & .btn {
+            margin-left: 15px;
+        }
+
+        & .btn-uploader-picker {
+            position: relative;
+            display: inline-block;
+            width: 80px;
+            height: var(--input-height);
+            line-height: var(--input-height);
+            @apply --input-border;
+            padding: 0 10px;
+            background-color: var(--control-background-color);
+            box-shadow: none;
+            cursor: pointer;
+            box-sizing: border-box;
+            text-align: center;
+            vertical-align: middle;
+
+            &:hover {
+                background-color: var(--anyshare-grey-02);
+            }
+
+            &:active {
+                background-color: var(--anyshare-grey-03);
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        & .text-input {
+            width: 496px;
+            height: 30px;
+            border: solid 1px #e0e0e0;
+            border-radius: 2px;
+            padding: 7px 10px 6px 10px;
+            box-sizing: border-box;
+            color: var(--font-color-strong);
+        }
+
+        & .tip-text {
+            line-height: 30px;
+            color: #c8c8c8;
+        }
+
+        & .radio-box {
+            margin-left: 16px;
+            color: var(--font-color-strong);
+        }
+
+        & .another-radio-box {
+            margin-left: 36px;
+            color: var(--font-color-strong);
+        }
+
+        & .upload-btn {
+            margin-top: 10px;
+            width: 80px;
+            color: var(--font-color-regular);
+        }
+    }
+
+    & .text-height {
+        line-height: 30px;
+    }
+}
+
+.hide {
+    position: fixed;
+    left: 100%;
+}

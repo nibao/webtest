@@ -1,0 +1,28 @@
+@import '../../libs/root.css';
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: var(--font-size-regular);
+    color: var(--font-color-regular);
+
+    & .crumbs-area {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    & .docs {
+        padding-top: 48px;
+        -webkit-overflow-scrolling: touch; 
+    }
+
+    & .empty-area {
+        position: fixed;
+        top: 48px;
+        bottom: 0;
+    }
+}

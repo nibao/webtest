@@ -1,0 +1,15 @@
+@import '../../libs/root.css';
+
+.message {
+    line-height: 1.5;
+    -moz-user-select: text;
+    -webkit-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    color:#707070;
+
+    & .item-space{
+        margin-left: var(--layout-spacing-small);
+    }
+}
+

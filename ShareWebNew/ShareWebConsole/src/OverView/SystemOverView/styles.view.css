@@ -1,0 +1,17 @@
+@import '../../../../libs/root.css';
+
+.form{
+    font-size:14px;
+    margin: 10px 0 0 20px;
+    color: var(--font-color-regular);
+
+    & .item-button {
+        margin-top: 20px;
+    }
+
+    & .item {
+        padding: 10px 0;
+    }
+   
+}
+

@@ -1,0 +1,24 @@
+
+
+    .external-wrap{
+        margin: 20px 30px;
+        width: 600px;
+        font-size: 13px;
+
+        .form-data {
+            font-size: 13px;
+            display: inline-block;
+            vertical-align: middle;
+        }  
+
+        .wrap{
+            font-size: 13px;
+            vertical-align: middle;
+            margin-top: 20px;
+
+            .right{
+                float: right;
+            }
+        }
+    }
+   

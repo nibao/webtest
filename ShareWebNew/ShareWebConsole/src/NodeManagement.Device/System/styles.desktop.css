@@ -1,0 +1,47 @@
+ @import '../../../libs/root.css';
+
+.system-wrapper{
+    height: 200px;
+    overflow: hidden;
+    padding-bottom: var(--layout-spacing-medium);
+
+    & .text-content{
+        display: inline-block;
+        height: 200px;
+        width: 50%;
+
+        & .name{
+            margin: var(--layout-spacing-medium) 0 0 var(--layout-spacing-large);
+            color: var(--font-color-regular);
+        }
+
+        & .value{
+            margin-top:var(--layout-spacing-medium);
+            color: var(--font-color-strong);
+        }
+    }
+
+    & .pie-wrapper{
+        display: inline-block;
+        vertical-align: top;
+        height: 200px;
+        width: 25%;
+           
+        & .pie{
+            margin: 0 auto;
+            height: 150px;
+            width: 150px;
+        }
+            
+        & .tips{
+            height: 50px;
+            color: var(--font-color-regular);
+            text-align: center;
+            line-height: 25px;
+
+            & .usage{
+                color: var(--font-color-strong);
+            }
+        }
+    } 
+}

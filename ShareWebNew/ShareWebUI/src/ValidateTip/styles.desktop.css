@@ -1,0 +1,6 @@
+@import '../../libs/root.css';
+
+:local {
+    & .validator-tip {
+    }
+}

@@ -1,0 +1,13 @@
+:local .container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1.5rem;
+    left: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+:local .hide{
+    display: none;
+}

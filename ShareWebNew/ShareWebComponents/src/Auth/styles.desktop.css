@@ -1,0 +1,63 @@
+:local .container {
+     & .login-dialog{
+         width: 330px;
+         text-align: center;
+
+        & .login{
+            margin-top: 20px;
+        }
+
+        & .input-btn {
+            width: 100%;
+            height: 40px;
+            color: #fff;
+            border-radius: 3px;
+            word-spacing: 50px;
+            margin-top: 10px;
+            border: 1px solid transparent;
+                    
+            &:hover {
+                border-radius: 3px;
+            }
+            
+            &:active {
+                border-radius: 3px;
+            }
+        }
+     }
+
+     & .panel-selected {
+        padding: 10px 0 30px 0;
+     }
+
+     & .default-background {
+         background: #AC000E;
+     }
+
+    & .user-icon{
+        padding: 0 0 30px 0;
+        text-align: center;
+        color: #bdbdbd;
+    }
+
+    & .selected-color {
+        color:#598cb7; 
+    }
+
+    & .header-font{
+        font-size: 20px;
+        color: #595656;
+    }
+
+    & .oem-organization {
+        font-size: 15px;
+        color: #8c8080;
+        padding: 15px 0;
+        height: 21px;
+    }
+
+    & .login-third {
+        padding-bottom: 40px;
+    }
+
+}

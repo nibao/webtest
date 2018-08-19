@@ -1,0 +1,69 @@
+.container {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #505050;
+    & .right{
+        position: absolute;
+        right:20px;
+        top:0;
+    }
+    & .thumbnail-container{
+        position: absolute;
+        left:20px;
+        top:0;
+        line-height: 50px;
+    }
+    & .thumbnail {
+        text-align: left;
+        color: #fff;
+    }
+    & .docname {
+        position: absolute;
+        left:65px;
+        right:245px;
+        height: 50px;
+        line-height: 50px;
+        color: #eeeeee;
+        font-size: 16px;
+    }
+    & .operations {
+        text-align: right;
+        white-space:nowrap;
+        & .oper-icon {
+            width: 45px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 16px;
+            color: #bdbdbd;
+            display: inline-block;
+            cursor: pointer;
+            &.favorited {
+                color: #f6cf57;
+            }
+            &:hover {
+                color: #fff;
+                background-color: #656565;
+            }
+            &.favorited:hover {
+                color: yellow;
+                background-color: #656565;
+            }
+            &:active {
+                color: #bdbdbd;
+                background-color: #444444;
+            }
+        }
+    }
+}
+.title{
+    border: 1px solid #000;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 8px 0 #000;
+    color: #bdbdbd;
+}

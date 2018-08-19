@@ -1,0 +1,23 @@
+:local {
+    & .input {
+        width: 100%;
+        padding: 0;
+        border: none;
+        background: none;
+        line-height: normal;
+        outline: none;
+    }
+
+    & .input::-webkit-input-placeholder{
+        color:#c8c8c8;
+    }
+    & .input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+        color:#c8c8c8;
+    }
+    & .input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+        color:#c8c8c8;
+    }
+    & .input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+        color:#c8c8c8;
+    }
+}

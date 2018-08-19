@@ -1,0 +1,17 @@
+.content {
+    & .message{
+        margin: 10px 20px;
+
+        & .message-color {
+            color: #888;
+        }
+    }
+
+    & .foot {
+        margin-top: 10px;
+
+        & .foot-button {
+            margin-left: 10px;
+        }
+    }
+}

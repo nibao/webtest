@@ -1,0 +1,204 @@
+.list-container{
+
+    & .list-head{
+        position: relative;
+        background: #f6f7fc;
+        line-height: 30px;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid #f6f7fc;
+        cursor: default;
+
+        & .list-head-item{
+            position: relative;
+            padding-left: 35px;
+    
+            &:hover{
+                background: #f6f7fc;
+            }
+
+            & .list-head-name{
+                display: inline-block;
+                width: 34.8%;
+  
+            }
+
+            & .list-head-name-client{
+                display: inline-block;
+                width: 34.5%;
+            }
+
+            & .list-head-editor{
+                display: inline-block;
+                width: 10%;
+            }
+
+            & .list-head-modified{
+                display: inline-block;
+                width: 13%;
+            }
+
+            & .list-head-size{
+                display: inline-block;
+                width: 8%;
+            }
+
+            & .list-head-days{
+                display: inline-block;
+                width: 12%;
+            }
+
+            & .list-head-path{
+                display: inline-block;
+            }
+
+            & .list-head-name-scroll{
+                display: inline-block;
+                width: 34.4%;
+
+            }
+
+            & .list-head-name-client-scroll{
+                display: inline-block;
+                width: 34%;
+            }
+
+            & .list-head-editor-scroll{
+                display: inline-block;
+                width: 10%;
+            }
+
+            & .list-head-modified-scroll{
+                display: inline-block;
+                width: 12.9%;
+            }
+
+            & .list-head-size-scroll{
+                display: inline-block;
+                width: 7.8%;
+            }
+
+            & .list-head-days-scroll{
+                display: inline-block;
+                width: 11.8%;
+            }
+
+        }
+    } 
+
+    & .list-box{
+        position: absolute;
+        top: 130px;
+        right: 20px;
+        bottom: 10px;
+        left: 0;
+        padding-left: 20px;
+
+        
+
+        & .list-item{
+            line-height: 52px;
+            
+            & .list-content{
+                height: 52px;
+                line-height: 52px;
+                padding-left: 15px;
+
+                & .list-content-name{
+                    display: inline-block;
+                    width: 35%;
+
+                    & .list-content-text{
+                        display: inline-block;
+                        height: 100%;
+                        padding-left: 15px;
+                        line-height: 14px;
+                    }
+
+                    & .icon-groups{
+                        float: right;
+                        margin-right: 15px;
+                        line-height: 14px;
+                        margin-top: 15px;
+                        
+                        & .action-icon{
+                            visibility: hidden;
+                            opacity: 0;
+                            transition: opacity 0.3s;
+                            &.actived {
+                                visibility: visible;
+                                opacity: 1;
+                            }
+                            
+                        }  
+    
+                    }
+                    
+                }
+
+                &:hover .icon-groups .action-icon{
+                    visibility: visible;
+                    opacity: 1;
+                } 
+
+                & .list-content-editor{
+                    display: inline-block;
+                    width: 10%;
+                }
+
+                & .list-content-modified{
+                    display: inline-block;
+                    width: 13%;
+                }
+
+                & .list-content-size{
+                    display: inline-block;
+                    width: 8%;
+                }
+
+                & .list-content-days{
+                    display: inline-block;
+                    width: 12%;
+                }
+
+                & .list-content-days-warning{
+                    color: #fa0404;
+
+                }
+                & .list-content-path{
+                    display: inline-block;
+                }
+            }
+        }
+
+        
+
+
+        
+    }
+
+    & .result-loading {
+        position: absolute;
+        height: 100%;
+    }
+
+    & .clearing-box {
+        display: inline-block;
+        padding: 20px 30px;
+
+        & .clearing-message {
+            height: 30px;
+            font-size: 14px;
+            line-height: 30px;
+            padding-top: 10px;
+            color:#868686;
+            padding-left: 10px;
+        }
+        
+    }
+
+
+    
+
+}
+
+    

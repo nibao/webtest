@@ -1,0 +1,80 @@
+:local .container{
+    & .linkInfo{
+        padding: 20px 10px;
+        border-radius: 3px;
+        background-color: #efefef;
+
+        & .docname {
+            margin-left: 10px;
+        }
+    }
+    
+    & .block {
+        margin: 10px 0;
+
+        & .config {
+            padding: 5px;
+            border: 1px solid #d0d0d0;
+
+            & .permOption {
+                display: inline-block;
+                margin-right: 10px;
+            }
+        }
+    }
+
+    & .filename {
+        display: inline-block;
+        margin-left: 1em;
+        vertical-align: middle;
+        width: 300px;
+    }
+    
+    & .btn-uploader-picker {
+        height: 28px;
+        width: 70px;
+        line-height: 28px;
+        border-radius: 3px;
+        text-align: center;
+        font-size: 14px;
+        overflow: hidden;
+        border: 1px solid #D0D0D0;
+        color: #000;
+        background-image: linear-gradient(#fff,#efefef);
+        background-color: #efefef;
+    }
+    & .btn-del-image {
+        margin-right: 8px;
+        margin-top: -8px;
+        position: absolute;
+    }
+
+    & .invisible {
+        visibility: hidden;
+    }
+    & .button-layout {
+        position: relative;
+        height: 30px;
+    }
+
+    & .button-wrapper {
+        float: right;
+        margin-left: 5px;
+    }
+    & .buttonWrapper {
+        display: inline-block;
+        margin-left: 5px;
+    }
+
+    & .permDrop {
+        position: relative;
+    }
+    & .note-btn {
+        margin-right: 5px;
+    }
+    & .upload-hide {
+        position: fixed;
+        top: -9999px;
+        right: -9999px;
+    }
+}

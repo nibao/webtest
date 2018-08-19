@@ -1,0 +1,182 @@
+.container {
+
+    & .folw-name-label {
+        display: inline-block;
+        padding-right: 10px;  
+    }
+
+    & .flow-name-validateBox {
+        width: 220px;
+    }
+    
+    & .file-location {
+        padding:10px 0;
+    }
+
+    & .file-location-control {
+        vertical-align: middle;
+        width: 296px;
+    }
+    & .clear-button {
+        vertical-align: middle;
+        position: absolute;
+        right: 0;
+    }
+
+    & .browser-button {
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+
+    & .help-uiicon {
+        color: #028afe;
+        position: relative;
+        bottom: 2px;
+        padding-left: 10px;
+    }
+
+    & .accessor-display-name-common {
+        width: 200px;
+        height: 310px;
+        overflow: auto;
+        border:1px solid #d3d8db;
+        margin-top:20px;
+        padding: 10px;
+    }
+
+    & .audit-model {
+        padding: 10px 0;
+
+        & .audit-model-label {
+            padding-right: 10px;
+            position: relative;
+            bottom: 4px;
+        }
+    }
+
+    & .selected-index {
+        display: inline-block;
+        width: 60px;
+    }
+
+    & .selected-display-name-common {
+        display: inline-block;
+        max-width: 120px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        vertical-align: bottom;
+    }
+
+    & .selected-data-del-common {
+        position: absolute;
+        top: 0;
+        right: 0px;
+    }
+
+    & .all-selected-accessor-display-name {
+        max-width: 220px;
+    }
+
+    & .search-info {
+        display: inline-block;
+        padding-right: 10px;
+
+        & .all-accessor-display-name {
+
+            & .accessor-display-name-item {
+                line-height: 30px;
+            }
+        }
+    }
+
+
+    & .display-info {
+        display: inline-block;
+    }
+
+    & .dep-search-common {
+        display: inline-table;
+    }
+
+    & .selected-range {
+        width: 160px;
+    }
+
+    & .dep-search {
+        display: inline-table;
+        padding-right: 10px;
+    }
+
+    & .search-display-tips {
+        position: relative;
+        line-height: 30px;    
+    }
+
+    & .selected-range-li {
+        line-height: 18px;
+        position: relative;
+        margin: 5px 0;
+    }
+
+    & .delete-range-button {
+        position: absolute;
+        right: 0;
+    }
+
+    & .search-display {
+        padding-top: 4px;
+    }
+
+    & .display-more {
+        text-overflow: ellipsis;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 64px;
+        max-height: 30px;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    & .uiicon-person {
+        display: inline-flex;
+        padding-right: 16px;
+    }
+
+    & .display-name {
+        display: inline-block;
+        text-overflow: ellipsis;
+        width: 150px;
+        vertical-align: middle;
+        white-space: nowrap;
+    }
+
+    & .selected-accessor-display-name-item {
+        height: 30px;
+    }
+
+    & .search-item {
+        width: 190px;
+        text-decoration: none;
+        white-space: nowrap;
+        display: inline-block;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        overflow: hidden;
+    }
+
+    & .display-info-tips {
+        position: relative;
+        line-height: 30px;
+        vertical-align: middle;
+    }
+
+    & .underline:hover {
+        text-decoration: underline;
+    }
+
+    & .accessor-position {
+        position: relative;
+        bottom: 1px;
+    }
+}

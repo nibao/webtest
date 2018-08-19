@@ -1,0 +1,42 @@
+.container {
+
+    & .icon-area {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+
+        & .message {
+            margin-top: 20px;
+            line-height: 1.2;
+        }
+
+        & .ex-area {
+            margin-top: 10px;
+
+            & .second-message {
+                display: inline-block;
+                line-height: 1.2;
+            }
+
+            & .tip-icon {
+                display: inline-block;
+            }
+
+            & .icon-margin {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    & .right-area {
+        display: inline-block;
+        margin-left: 20px;
+        padding-top: 20px;
+        vertical-align: top;
+
+        & .progress-bar {
+            width: 496px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+:local .container{
+    & .info-header {
+        padding: 10px 0;
+    }
+
+    & .option-btn {
+        width: 300px;
+    }
+    & .row-padding {
+        padding: 3px 0;
+    }
+    & .row-padding-text {
+        padding: 3px 0;
+        width: 220px;       
+    }
+    
+
+}

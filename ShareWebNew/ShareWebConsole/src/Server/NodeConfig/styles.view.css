@@ -1,0 +1,71 @@
+@import '../../../libs/root.css';
+
+.form-label{
+    min-width: 80px;
+    padding: 10px 5px;
+    vertical-align: middle;
+}
+
+.form-field{
+    padding: 10px 5px;
+    vertical-align: middle;
+}
+
+.input {
+    width: 300px;
+    padding: 7px 5px 6px 5px;
+    border: 1px solid #bdbdbd;
+    border-radius: 2px;
+}
+
+.validate-box {
+    width: 290px;
+}
+
+.vip-info {
+    margin-left: 30px;
+    padding-top: 10px;
+
+    .vip-item {
+        display: inline-block;
+        min-width: 104px;
+    }
+
+    .vip-input {
+        width: 160px;
+    }
+} 
+
+.mark {
+    display: inline-block;
+    margin-left: 8px;
+    color: var(--anyshare-red-01);
+}
+
+.select-box {
+    width: 160px;
+    vertical-align: middle;
+}
+
+.role-option {
+    height: 32px;
+    line-height: 32px;
+
+    .ha-checkbox {
+        display: inline-block;
+        margin-right: 26px;
+    }
+}
+
+.index-role {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.select-placeholder {
+    display: none;
+}
+
+.addnode-table {
+    margin: 0 auto;
+}

@@ -1,0 +1,38 @@
+.main-header{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    .create-button{
+        line-height: 26px;
+        & .button-text{
+            vertical-align: middle;
+        }
+        & .createIcon{
+            display: inline-block;
+            width:18px;
+            height:18px;
+            line-height:18px;
+            vertical-align:middle;
+            text-align:center;
+            border-radius:50%;
+            background-color:#a7a4a4;
+            color:#fff;
+            margin-right:5px;
+            font-size:12px;
+        }
+    } 
+}
+.main-body{
+    height: 400px;
+    position: relative;
+    overflow-y: auto;
+    & .body-list{
+        padding: 10px 0;
+        position:relative;
+    }
+    & .noGroupTip{
+        font-size: 14px;
+        padding-top: 110px;
+        color: #ccc;
+        text-align: center;
+    }
+}

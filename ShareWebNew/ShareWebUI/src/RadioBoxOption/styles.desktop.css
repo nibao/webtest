@@ -1,0 +1,19 @@
+@import '../../libs/root.css';
+
+.container {
+    & .radio-box {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        vertical-align: middle;
+    }
+
+    & .text {
+        margin-left: 5px;
+        vertical-align: middle;
+
+        &.disabled {
+            @apply --disabled;
+        }
+    }
+}

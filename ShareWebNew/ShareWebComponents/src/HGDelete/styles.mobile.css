@@ -1,0 +1,9 @@
+@import '../../libs/root.css';
+
+.delete-tips{
+    padding:0.5rem 1rem;
+    line-height:0.6rem;
+    font-size:0.4rem;
+    color:var(--font-color-secondary);
+    border-bottom:1px solid var(--anyshare-grey-04);
+}

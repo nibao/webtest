@@ -1,0 +1,23 @@
+:local .link-button {
+    -webkit-touch-callout: none;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: .5rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    &:hover,
+    &:active,
+    &:focus,
+    {
+        color: black;
+    }
+    &.disabled {
+        color: #a0a0a0;
+        cursor: default;
+    }
+}

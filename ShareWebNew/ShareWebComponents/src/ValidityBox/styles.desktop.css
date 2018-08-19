@@ -1,0 +1,7 @@
+:local .options {
+    padding: 10px;
+
+    & .option-label {
+        margin-left: 5px;
+    }
+}

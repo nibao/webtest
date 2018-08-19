@@ -1,0 +1,16 @@
+@import '../../../libs/root.css';
+
+.message {
+    color: var(--font-color-secondary);
+    padding: 0 0 10px 0;
+}
+
+.account {
+    height: 30px;
+    line-height: 30px;
+    width: 220px;
+}
+
+.error-message {
+    color: var(--background-red);
+}

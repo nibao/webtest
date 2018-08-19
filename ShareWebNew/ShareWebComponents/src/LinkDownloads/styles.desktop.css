@@ -1,0 +1,49 @@
+@import '../../../libs/root.css';
+
+.container{
+    & .middle{
+        min-width:6px;
+        height: 448px;
+        border-top:1px solid #e5e5e5;
+        border-bottom:1px solid #e5e5e5;
+    }
+ 
+    & .name-wrapper{
+        position: relative;
+
+        & .picture{
+            display: inline-block;
+            line-height: 0;
+        }
+
+        & .name{
+            display: inline-block;
+            padding-left: var(--layout-spacing-small);
+        }
+    }
+       
+    & .item {
+        line-height: 16px;
+    }
+
+    & .text-color{
+        color: var(--anyshare-main-red);
+    }
+
+    & .close-button{
+        background-color: var(--background-red);
+        color: var(--font-color-light);
+        border: 0;
+        border-radius: 2px;
+
+        &:hover{
+            background-color: var(--background-red__hover);
+            color: var(--font-color-light);
+        }
+
+        &:active{
+            background-color: var(--background-red__active);
+            color: var(--font-color-light);
+        }
+    }
+}

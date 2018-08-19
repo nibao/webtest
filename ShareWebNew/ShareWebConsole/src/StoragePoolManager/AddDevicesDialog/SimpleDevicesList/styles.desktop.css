@@ -1,0 +1,73 @@
+@import '../../../../libs/root.css';
+
+.storage-add-devices{
+    display: block;
+    cursor: pointer;
+
+    & .storage-add-ip{
+        position: relative;
+        width: 100%;
+        height: 30px;
+        border: 1px solid var(--anyshare-grey-04);
+        border-radius: 2px;
+        line-height: 30px;
+        cursor: pointer;
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+        & .storage-add-expand-icon{
+            padding:0 10px;
+            cursor: pointer;
+        }
+
+        & .storage-add-ip-content{
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+
+        & .loading-icon {
+            display: inline-block;
+            margin-left: 5px;
+        }
+    }
+
+    & .storage-add-list{
+        margin-left: 50px;
+        margin-right: 50px;
+        
+        & .list-item{
+            display: inline-block;
+            padding-left: 10px;
+        }
+
+
+        & .storage-add-list-body{
+
+            & .storage-add-list-item{
+                position: relative;
+                height: 34px;
+                padding-left: 20px;
+                line-height: 34px;
+            }
+        }
+    }
+}
+
+.font-bold{
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.font-color-red{
+    display: inline-block;
+    color: var(--anyshare-red-05);
+    vertical-align: middle;
+}
+
+.font-color-green{
+    display: inline-block;
+    color: var(--anyshare-green01);
+    vertical-align: middle;
+
+}

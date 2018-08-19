@@ -1,0 +1,121 @@
+@import '../../libs/root.css';
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background: #eee;
+    overflow-y: auto;
+
+    & .fixed-area {
+        position: fixed;
+        z-index: 1;
+        background: #fff;
+        overflow-y: hidden;
+        width: 100vw;
+
+        & .header-left-area {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        & .header-right-area {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        & .header-disabled-btn {
+            opacity: 0.5;
+            filter: alpha(opacity = 50);
+        }
+
+        & .header-enable-btn {
+            color: #d70000;
+        }
+
+        & .header-text {
+            margin: 0 3rem;
+            text-align: center;
+        }
+
+        & .header-button {
+            display: inline-block;
+            width: 1.6rem;
+            height: 100%;
+            text-align: center;
+        }
+    }
+
+    & .path-area {
+        line-height: 40px;
+        height: 60px;
+        width: 100vw;
+        box-sizing: border-box;
+        padding: 10px;
+        background: #eee;
+
+        & .text-area {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 0 10px;
+            border-radius: 5px;
+            border: 1px solid #bdbdbd;
+            background: #fff;
+            user-select: all;
+            line-height: 25px;
+            height: 40px;
+            font-size: var(--font-size-maintitle);
+        }
+    }
+
+    & .add-visitor-text {
+        background: #fff;
+        line-height: 50px;
+        padding: 0 15px 0 5px;
+
+        & .add-visitor-text {
+            display: inline-block;
+        }
+
+        & .icon {
+            position: absolute;
+            right: 5px;
+            line-height: 50px;
+            padding: 0 5px;
+        }
+    }
+
+    & .error-tip {
+        position: absolute;
+        top: 48%;
+        left: 20px;
+        right: 20px;
+        text-align: center;
+        line-height: 2;
+        opacity: 0.5;
+        filter: alpha(opacity = 50);
+    }
+
+    & .permissions {
+        position: fixed;
+        top: 174px;
+        bottom: 0;
+        box-sizing: border-box;
+        width: 100vw;
+        overflow-y: auto;
+        -webkit-overflow-scrolling:touch; 
+    }
+
+    & .visitor-adder-component {
+        position: fixed;
+        z-index: 2;
+    }
+}
+
+.drawer {
+    top: 0;
+    width: 100vw;
+    background: #fff;
+    bottom: 0;
+}

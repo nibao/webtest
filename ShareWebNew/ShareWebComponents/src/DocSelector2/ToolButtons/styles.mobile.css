@@ -1,0 +1,24 @@
+@import '../../../libs/root.css';
+
+.tool-buttons{
+    position: relative;
+    height: 1.6rem;
+    border-top: 1px solid #e0e0e0;
+    line-height: 1.6rem;
+    background-color: #f9f9f9;
+
+    & .item {
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    & .disabled {
+        opacity: 0.3;
+    }
+
+    & .enabled {
+        color: var(--font-color-blue-mobile);
+    }
+}

@@ -1,0 +1,15 @@
+.details {
+    margin: 20px auto;
+}
+
+.detail-title {
+    display: inline-block;
+    width: 70px;
+    margin: auto 5px;
+}
+
+.detail-content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

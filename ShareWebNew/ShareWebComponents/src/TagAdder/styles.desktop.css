@@ -1,0 +1,14 @@
+:local {
+
+    & .message {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        margin: 16px 0px;
+    }
+
+    & .warning {
+        color: #ac000e;
+        height: 10px;
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,19 @@
+.container {
+    & .useragreement-checkbox {
+        float: left;
+        line-height: 30px;
+        & input {
+            margin-right: 4px;
+        }
+    }
+    & .agreement-text {
+        width: 500px;
+        height: 400px;
+        padding: 5px 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        word-wrap: break-word;
+        white-space: pre-wrap;
+        line-height: 1.5;
+    }
+}

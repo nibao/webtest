@@ -1,0 +1,64 @@
+@import '../../../libs/root.css';
+
+
+.container{
+    background: #f9f9f9;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    & .wrapper{
+        position: relative;
+        box-sizing: border-box;
+        padding-bottom: 100px;
+        min-height: 100%;
+    }
+}
+
+.index {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f9f9f9;
+    overflow: auto;
+
+    & .client-download{
+        text-align: center;
+    }
+
+    & .clients-wrap {
+        width: 660px;
+        height: 14px;
+        margin: 0 auto 30px;
+        text-align: center;
+    }
+
+    & .clients-wrap .clients-line {
+        float: left;
+        width: 270px;
+        height: 1px;
+        background-color: #cccccc;
+        margin-top: 7px;
+    }
+
+    & .clients-wrap .clients-tip {
+        font-size: var(--font-size-subtitle);
+        line-height: 14px;
+        float: left;
+        width: 120px;
+        color: #9e9e9e;
+    }
+}
+
+.about{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 0 20px 0;
+    text-align: center;
+    min-height: 50px;
+    background: #f9f9f9;
+}

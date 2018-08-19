@@ -1,0 +1,12 @@
+@import '../../libs/root.css';
+
+.link{
+    color: var(--anyshare-grey-01);
+    text-decoration: none;
+    text-align: center;
+    flex-grow: 1;
+    & .label{
+        font-size: 0.4rem;
+        margin-top: .2rem;
+    }
+}
