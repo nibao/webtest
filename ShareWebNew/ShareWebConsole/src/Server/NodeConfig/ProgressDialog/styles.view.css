@@ -1,8 +1,0 @@
-.progress-description {
-    font-size: 16px;
-
-    & .progress-text {
-        display: inline-block;
-        margin-left: 10px;
-    }
-}

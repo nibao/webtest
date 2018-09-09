@@ -1,9 +1,0 @@
-html, body {
-    height: 100%;
-    font-size: 13px;
-    overflow: hidden;
-}
-
-:global(#root) {
-    height: 100%;
-}

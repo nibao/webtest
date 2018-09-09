@@ -1,9 +1,0 @@
-:local {
-    & .tool-bar {
-        height: 28px;
-        padding: 3px 10px 5px;
-        border: 1px solid #ccc;
-        border-radius: 3px;
-        position: relative;
-    }
-}

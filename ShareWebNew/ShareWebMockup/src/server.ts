@@ -1,2 +1,0 @@
-import './thrift';
-import './eachttp';

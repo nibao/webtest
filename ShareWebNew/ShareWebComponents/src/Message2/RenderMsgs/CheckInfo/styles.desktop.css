@@ -1,8 +1,0 @@
-@import '../../../../libs/root.css';
-.agree {
-    color: var(--anyshare-green01);
-}
-
-.deny {
-    color: var(--anyshare-red-01);
-}

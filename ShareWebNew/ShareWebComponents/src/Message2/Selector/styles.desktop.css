@@ -1,6 +1,0 @@
-.message-selecter {
-    float: right;
-    & .sel-icon {
-        margin-left: 10px;
-    }
-}

@@ -1,9 +1,0 @@
-@import '../../../libs/root.css';
-.empty-box {
-    display: inline-block;
-    .empty-message {
-        margin-top: 15px;
-        font-size: var(--font-size-subtitle);
-        color: var(--font-color-secondary);
-    }
-}

@@ -1,9 +1,0 @@
-:local .chipX {
-    display: inline-block;
-    color: #585858;
-    text-decoration: none;
-
-    &:hover {
-        color: #000;
-    }
-}

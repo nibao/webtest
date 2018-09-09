@@ -1,9 +1,0 @@
-.container {
-
-    margin: 10px;
-
-    & .csf-message {
-        margin: 10px 21px;
-        opacity: 0.5;
-    }
-}

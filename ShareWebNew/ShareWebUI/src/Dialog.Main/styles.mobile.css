@@ -1,5 +1,0 @@
-:local .container {
-    & .padding {
-        padding: .5rem;
-    }
-}

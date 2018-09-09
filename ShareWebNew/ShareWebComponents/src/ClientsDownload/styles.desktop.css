@@ -1,8 +1,0 @@
-:local .container{
-    display: inline-block;
-    text-align: center;
-    & .client{
-        display: inline-block;
-
-    }
-}

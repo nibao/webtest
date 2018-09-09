@@ -1,9 +1,0 @@
-@global-import "highlight.js/styles/github.css";
-
-.code {
-    border: 1px solid #f0f0f0;
-    border-radius: 3px;
-    font-family: Helvetica, monospace;
-    line-height: 1.5;
-    overflow-y: auto;
-}

@@ -1,8 +1,0 @@
-.label {
-    display: inline-block;
-    cursor: pointer;
-    & .input {
-        position: absolute;
-        clip: rect(1px 1px 1px 1px);
-    }
-}

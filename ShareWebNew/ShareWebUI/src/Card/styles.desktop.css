@@ -1,8 +1,0 @@
-@import '../../../libs/root.css';
-
-.card{
-    box-sizing: border-box;
-    border-radius: 8px;
-    box-shadow: var(--control-block-shadow);
-    display: inline-block;
-}

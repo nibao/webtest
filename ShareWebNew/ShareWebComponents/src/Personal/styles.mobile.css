@@ -1,8 +1,0 @@
-:local .personal{
-    padding: 0.5rem 0;
-
-    & .dispaly-name{
-        font-size: 80%;
-        margin-top: 0.2rem;
-    }
-}
